@@ -129,7 +129,7 @@ nav:
   - Microsoft:
     - Microsoft/index.md
     - Naming Convention: Microsoft/NamingConvention/README.md
-      - Naming Convention Working Documents: files
+      - Naming Convention Working Documents: https://github.com/cmdcnd/learn/tree/main/docs/files
     - Group Policy:
       - Client GPOs:
         - Microsoft/GroupPolicy/client/index.md

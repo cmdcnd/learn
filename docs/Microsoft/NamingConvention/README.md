@@ -341,4 +341,4 @@ Example OU with security group for Active Directory delegation
 ![naming-convention-activedirectory-ou-activedirectory](../../images/naming-convention-activedirectory-ou-activedirectory.png)
 
 ## References  
-[Master Documents](https://github.com/cmdcnd/learn/tree/main/docs/files)  
+[Naming Convention Working Documents](https://github.com/cmdcnd/learn/tree/main/docs/files)  
