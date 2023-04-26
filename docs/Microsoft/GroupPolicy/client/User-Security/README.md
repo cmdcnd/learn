@@ -9,3 +9,6 @@ This policy has the basic user security settings for Java.  The best way to setu
   1. deployment.properties
 3. Group Policy Preferences
   1. Adjust the Java registry settings to copy the files from a network location that users have read access to.
+
+	### References  
+[Group Policy Files](https://github.com/cmdcnd/learn/tree/main/docs/Microsoft/GroupPolicy/client/User-Security)  
