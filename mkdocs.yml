@@ -127,7 +127,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Microsoft: Microsoft/index.md
-    - Active Directory:
       - Naming Conventions: Microsoft/NamingConvention/README.md
   - Microsoft365: Microsoft365/index.md
 
