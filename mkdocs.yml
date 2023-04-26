@@ -128,7 +128,8 @@ markdown_extensions:
 nav:
   - Microsoft:
     - Microsoft/index.md
-    - Naming Conventions: Microsoft/NamingConvention/README.md
+    - Naming Convention: Microsoft/NamingConvention/README.md
+      - Naming Convention Working Documents: files
     - Group Policy:
       - Client GPOs:
         - Microsoft/GroupPolicy/client/index.md
