@@ -132,7 +132,7 @@ nav:
     - Group Policy:
       - Client GPOs:
         - Microsoft/GroupPolicy/client/index.md
-        - Computer Security: Microsoft/GroupPolicy/client/Computer-Security/README.MD
+        - Computer Security: Microsoft/GroupPolicy/client/Computer-Security/README.md
         - Computer Application Security: Microsoft/GroupPolicy/client/Computer-Application-Security/README.md
         - User Security: Microsoft/GroupPolicy/client/User-Security/README.md
         - User Application Security: Microsoft/GroupPolicy/client/User-Application-Security/README.md

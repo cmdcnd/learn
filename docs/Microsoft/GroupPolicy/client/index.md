@@ -19,7 +19,7 @@ Adversaries move laterally throughout networks to try and find administrative cr
 ## Network/Host segmentation  
 Ideally, clients and servers should only be allowed to communicate with other systems on the network with firewalls in-between to control and restrict access, but this is often cost and manpower prohibitive.  Start out by creating unique subnets for your administrators.  For smaller organizations create one subnet for all Service Desk/NOC personnel.  This will allow the organization to create Access Control Lists (ACL) on layer 3 interfaces or rules in host based firewalls to restrict/allow access for management systems.  In an ideal environment, each device type would be segmented into unique subnets based on role and access to these devices would be restricted to only required protocols.  See table 1 as an example.  (Note: This table is a simplification of what would actually be required. It is designed to provide a generic example to start from)  
   
-### <p align="center">Table 1</p>
+### Table 1  
 | Device Type          | Subnet          | Inbound Subnet Rules          | Note                           |
 | -------------------- | --------------- | ----------------------------- | ------------------------------ |
 | Client               | 10.0.0.0/24     | IP Any/Any from MGMT subnet   | Allow admin MGMT subnet access |
@@ -29,7 +29,7 @@ Ideally, clients and servers should only be allowed to communicate with other sy
 
 In order to manage this in an enterprise environment it is necessary to standardize subnets and vlans.  I cannot emphasize enough how important it is to plan out distribution of IP space ahead of time instead of just grabbing the next available subnet.  Take some time and plan this out, better to spend a few days mapping everything out ahead of time.  Ideally, separate VRFs should be created for traversing the WAN for each subnet.   See table 2 as an example.  (Note: This table is a simplification of what would actually be required. It is designed to provide a generic example to start from)  
 
-### <p align="center">Table 2</p>
+### Table 2  
 | Location             | Subnet          | VLAN                          | Note                           |
 | -------------------- | --------------- | ----------------------------- | ------------------------------ |
 | City#1               | 10.1.0.0/24     | 10                            | City#1 wired clients           |
