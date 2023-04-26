@@ -56,7 +56,7 @@ theme:
 # Plugins
 plugins:
   - search:
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      separator: '[/s/-,:!=/[/]()"`/]+|/.(?!/d)|&[lg]t;|(?!/b)(?=[A-Z][a-z])'
   - table-reader
 #  - minify:
 #      minify_html: true
@@ -129,6 +129,12 @@ nav:
   - Microsoft:
     - Microsoft/index.md
     - Naming Conventions: Microsoft/NamingConvention/README.md
+    - Group Policy:
+      - Client GPOs: Microsoft/GroupPolicy/client/index.md
+        - Computer Security: Microsoft/GroupPolicy/client/Computer-Security/README.MD
+        - Computer Application Security: Microsoft/GroupPolicy/client/Computer-Application-Security/README.md
+        - User Security: Microsoft/GroupPolicy/client/User-Security/README.md
+        - User Application Security: Microsoft/GroupPolicy/client/User-Application-Security/README.md
   - Microsoft365:
     - Microsoft365/index.md
 
