@@ -3,7 +3,7 @@
 1. Objects in this classification include:  Workstations, Desktops, Laptops, Tablet PC’s, and windows mobile devices.  Windows still has a 15 character limit for NetBIOS names, so this example is designed to maintain that limit.
 2. Objects in this classification will be named using the following breakdown.
 
-{{ read_csv('../../files/artifact-naming-convention-standard.csv') }}
+{{ read_csv('../../files/naming-convention-computer.csv') }}
 
 Example Computer Name
 
