@@ -20,10 +20,13 @@
 * [DNSRecon](https://github.com/darkoperator/dnsrecon)  
 
 ##### TASK: 16.6 - PENETRATION TEST EXTERNAL HIGH-RISK SERVICE EXPOSURE DETECTION  
-Periodically run an all ports NMAP scan    
+Periodically run an all ports NMAP scan  
+```
+nmap -vv -O -sV -sC -sT -Pn -p 0-65535 --script http-methods --script-args http.useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" --open --min-hostgroup 256 --min-parallelism 32 --stylesheet=https://svn.nmap.org/nmap/docs/nmap.xsl -oA entity.name_external_allports -iL /path/to/subnetfile.txt --excludefile /path/to/exclusionfile.txt
+```  
 
 ##### TASK: 16.7 – PENETRATION TEST EXTERNAL HOST MANAGEMENT SERVICE DETECTION  
-Periodically run an all ports NMAP scan  
+Periodically run an all ports NMAP scan, see TASK 16.6 for NMAP command  
 
 ##### TASK: 16.8 – PENETRATION TEST EXTERNAL WEB APPLICATION MISCONFIGURATIONS AND EXPOSURES  
 * [Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)  
@@ -43,18 +46,24 @@ Periodically run an all ports NMAP scan
 
 ##### TASK: 17.2 – PENETRATION TEST INTERNAL CREDENTIAL HASH CAPTURE AND CRACKING  
 Tools to capture hashes  
+
 * [Responder](https://github.com/lgandx/Responder)  
 * [Inveigh](https://github.com/Kevin-Robertson/Inveigh)  
 
 Tools to crack hashes  
+
 * [John the Ripper](https://github.com/openwall/john)  
 * [Hashcat](https://github.com/hashcat/hashcat)  
 
 Password lists  
+
 * [Password Lists](https://github.com/danielmiessler/SecLists) 
 
 ##### TASK: 17.3 – PENETRATION TEST INTERNAL USE OF INSECURE HOST MANAGEMENT SERVICES  
 Periodically run an all ports NMAP scan  
+```
+nmap -vv -O -sV -sC -sT -p 0-65535 --script http-methods --script-args http.useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" --open --min-hostgroup 256 --min-parallelism 32 --stylesheet=https://svn.nmap.org/nmap/docs/nmap.xsl -oA entity.name_internal_allports -iL /path/to/subnetfile.txt --excludefile /path/to/exclusionfile.txt
+```  
 
 ##### TASK: 17.4 – PENETRATION TEST INTERNAL WEB SITE/APPLICATION RISKS  
 * [Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)  
