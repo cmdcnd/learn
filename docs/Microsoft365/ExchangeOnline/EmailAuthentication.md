@@ -56,9 +56,23 @@ Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate DKIM
 army.mil:selector1
 ```  
 
-![army.mil DKIM Example](../../images/exchangeonline-dkim-example.png)
+![army.mil DKIM Example](../../images/exchangeonline-dkim-example.png)  
+
+### Use DMARC to validate email  
+-------------------------------  
+Use [Microsoft's instructions](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dmarc-configure?view=o365-worldwide) to setup DMARC records for the organization.  
+
+Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate DMARC records.  
+
+* Example army.mil:  
+```
+v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_reports@mail.mil,mailto:usarmy.huachuca.2rcc-wh.mbx.dmarc@mail.mil;
+```  
+
+![army.mil DMARC Example](../../images/exchangeonline-dmarc-example.png)  
 
 ### References  
 [Exchange Online](https://learn.microsoft.com/en-us/exchange/exchange-online)  
 [Exchange Online Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide)  
 [Define SPF Record](https://support.google.com/a/answer/10683907?sjid=14513075492794864441-NA)  
+[Define DMARC Record](https://dmarc.org/overview/)  
