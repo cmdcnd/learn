@@ -19,6 +19,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Organization uses more than Microsoft for sending email, e.g. MailChimp, SalesForce and SendGrid.  
 Use [MXToolBox SPF Generator](https://mxtoolbox.com/SPFRecordGenerator.aspx) to generate the TXT record.  
+
 * microsoft.com example:  
 ```
 v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all
@@ -35,6 +36,7 @@ v=spf1 ip4:214.29.60.2/32 ip4:214.29.60.3/32 include:_spf.eemsg.mail.mil include
 ```  
 
 Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate SPF records.  
+
 * dhs.gov example:
 ```
 v=spf1 ip4:216.128.251.155 ip4:128.129.88.18 a:mail.tripwire-dhs.us include:spf.dhs.gov include:spf.protection.outlook.com include:spf-00376703.gpphosted.com -all
@@ -46,6 +48,7 @@ v=spf1 ip4:216.128.251.155 ip4:128.129.88.18 a:mail.tripwire-dhs.us include:spf.
 Use [Microsoft's instructions](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) to setup DKIM records for the organization.  
 
 Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate DKIM records.  
+
 * army.mil example:
 ```
 army.mil:selector1
