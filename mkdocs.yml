@@ -139,6 +139,8 @@ nav:
         - User Application Security: Microsoft/GroupPolicy/client/User-Application-Security/README.md
       - Server GPOs:
         - Microsoft/GroupPolicy/server/README.md
+      - Domain Controller GPOs:
+        - Microsoft/GroupPolicy/domaincontroller/README.md
   - Microsoft365:
     - Microsoft365/index.md
 
