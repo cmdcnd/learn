@@ -5,3 +5,9 @@ Capture the Flag (CTF) is a popular cybersecurity competition that involves mult
 * The wargames offered by the OverTheWire community can help you to learn and practice security concepts in the form of fun-filled games.
 To find out more about a certain wargame, just visit its page linked from the menu on the left.  
 [Linux/Web CTF](https://overthewire.org/wargames)  
+* Here are all of our recent Holiday Hack Challenges, as well as links to the official answers and winning entries. Past challenges are fun learning opportunities, and we will keep the last three years of challenges available!  
+[SANS Holiday Hack Challenges](https://holidayhackchallenge.com/past-challenges/)  
+* MemLabs is an educational, introductory set of CTF-styled challenges which is aimed to encourage students, security researchers and also CTF players to get started with the field of Memory Forensics.  
+[MEM LABS](https://github.com/stuxnet999/MemLabs)  
+* GitHub Topic: CTF-Challenges  
+[GitHub Topic CTF-Challenges](https://github.com/topics/ctf-challenges)  
