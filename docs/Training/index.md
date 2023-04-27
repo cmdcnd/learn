@@ -1,0 +1,2 @@
+This site is a collection of free/low cost links to training.  The home page is a [guide](https://gist.github.com/mubix/5737a066c8845d25721ec4bf3139fd31#file-infosec_newbie-md) provided by [Rob Fuller](https://malicious.link/about/) to help people get started in the infosec field.  
+<script src="https://gist.github.com/mubix/5737a066c8845d25721ec4bf3139fd31.js"></script>

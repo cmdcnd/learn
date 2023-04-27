@@ -145,4 +145,16 @@ nav:
     - Microsoft365/index.md
     - Exchange Online:
       - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
+  - Training:
+    - Training/index.md
+    - Coding: Training/coding.md
+    - CTF: Training/ctf.md
+    - EDR: Training/edr.md
+    - Linux: Training/linux.md
+    - Microsoft: Training/microsoft.md
+    - Network: Training/network.md
+    - Offense: Training/offense.md
+    - Random: Training/random.md
+    - Threat Hunting: Training/threathunting.md
+    - Vendor Blogs/Repos: Training/vendor.md
 
