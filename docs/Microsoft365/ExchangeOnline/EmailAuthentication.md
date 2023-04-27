@@ -12,16 +12,50 @@ To see Microsoft's general announcement, see [A Sea of Phish Part 2 - Enhanced A
 ### Set up SPF to help prevent spoofing  
 Use [Microsoft's instructions](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-spf-configure?view=o365-worldwide#create-or-update-your-spf-txt-record) to setup SPF records for the organization.  
 
-* Organization only uses Microsoft for sending email  
+Organization only uses Microsoft Exchange Online for sending email.  
 ```
 v=spf1 include:spf.protection.outlook.com -all
 ```  
 
-* Organization uses more than Microsoft for sending email, e.g. MailChimp, SalesForce and SendGrid.    
-	* Use [MXToolBox SPF Generator](https://mxtoolbox.com/SPFRecordGenerator.aspx) to generate the TXT record.  See Microsoft.com example below:  
-	![Microsoft SPF Record](../../images/exchangeonline-spf-example.png)  
+Organization uses more than Microsoft for sending email, e.g. MailChimp, SalesForce and SendGrid.  
+Use [MXToolBox SPF Generator](https://mxtoolbox.com/SPFRecordGenerator.aspx) to generate the TXT record.  
+* microsoft.com example:  
+```
+v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all
+```  
 
+* state.ca.gov example:  
+```
+v=spf1 include:spf.protection.outlook.com ip4:216.52.6.89 ip4:156.60.157.112/28 ip4:134.186.201.240/28 ip4:156.60.5.32/28 ip4:161.149.240.176 ip4:149.72.229.14 -all
+```  
 
+* nsa.gov example:  
+```
+v=spf1 ip4:214.29.60.2/32 ip4:214.29.60.3/32 include:_spf.eemsg.mail.mil include:amazonses.com ~all
+```  
+
+Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate SPF records.  
+* dhs.gov example:
+```
+v=spf1 ip4:216.128.251.155 ip4:128.129.88.18 a:mail.tripwire-dhs.us include:spf.dhs.gov include:spf.protection.outlook.com include:spf-00376703.gpphosted.com -all
+```  
+
+![dhs.gov SPF Example](../../images/exchangeonline-spf-example.png)
+
+### Use DKIM to validate outbound email sent from your custom domain  
+Use [Microsoft's instructions](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) to setup DKIM records for the organization.  
+
+Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate DKIM records.  
+* army.mil example:
+```
+army.mil:selector1
+```  
+
+```
+army.mil:selector2
+```  
+
+![army.mil DKIM Example](../../images/exchangeonline-dkim-example.png)
 
 
 ### References  
