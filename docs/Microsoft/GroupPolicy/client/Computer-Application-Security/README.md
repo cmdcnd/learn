@@ -4,13 +4,13 @@ The GPO covers the computer based settings for Internet Explorer, Microsoft Offi
 
 The first section will be Windows Components > Internet Explorer > Internet Control Panel > Security Page.  The company domain name needs to be set, along with any domains that the company uses to conduct business.  
 
-1. Site to Zone Site Assignment List� Add the following entries.  
-  1. Change the place holder *.company.com to your organization DNS domain name.  
-  2. Add any entries the company needs for business use with a value of 2.  
+* Site to Zone Site Assignment List� Add the following entries.  
+	* Change the place holder *.company.com to your organization DNS domain name.  
+	* Add any entries the company needs for business use with a value of 2.  
   ![Site to Zone Assignment](../../../../images/sitetozoneassignment.png)  
 
-2. Group Policy Preferences - These are the settings that cover Adobe and java.  Each entry has a URL where to find the settings description.  
-  1. Find each entry labeled trusted sites and change *.company.com to your company domain name.  
+* Group Policy Preferences - These are the settings that cover Adobe and java.  Each entry has a URL where to find the settings description.  
+	* Find each entry labeled trusted sites and change *.company.com to your company domain name.  
   ![Adobe Trusted Sites](../../../../images/adobetrustedsites.png)
 
 ### References  
