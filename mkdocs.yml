@@ -56,7 +56,7 @@ theme:
 # Plugins
 plugins:
   - search:
-      separator: '[/s/-,:!=/[/]()"`/]+|/.(?!/d)|&[lg]t;|(?!/b)(?=[A-Z][a-z])'
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - table-reader
 #  - minify:
 #      minify_html: true
@@ -157,4 +157,5 @@ nav:
     - Random: Training/random.md
     - Threat Hunting: Training/threathunting.md
     - Vendor Blogs/Repos: Training/vendor.md
-
+  - Security Assessment Tools:
+    - Assessment/README.md
