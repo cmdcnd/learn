@@ -37,7 +37,7 @@ v=spf1 ip4:214.29.60.2/32 ip4:214.29.60.3/32 include:_spf.eemsg.mail.mil include
 
 Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate SPF records.  
 
-* dhs.gov example:
+* dhs.gov example:  
 ```
 v=spf1 ip4:216.128.251.155 ip4:128.129.88.18 a:mail.tripwire-dhs.us include:spf.dhs.gov include:spf.protection.outlook.com include:spf-00376703.gpphosted.com -all
 ```  
@@ -49,11 +49,10 @@ Use [Microsoft's instructions](https://learn.microsoft.com/en-us/microsoft-365/s
 
 Use [MXToolBox SuperTool](https://mxtoolbox.com/SuperTool.aspx) to validate DKIM records.  
 
-* army.mil example:
+* army.mil example:  
 ```
 army.mil:selector1
 ```  
-
 ```
 army.mil:selector2
 ```  
