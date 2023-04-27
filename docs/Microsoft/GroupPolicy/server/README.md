@@ -26,7 +26,7 @@ LAPS is a Microsoft solution to manage the password of the local administrator a
 
 * LAPS can be download from here: https://www.microsoft.com/en-us/download/details.aspx?id=46899  
 
-### NOTE: IN ORDER TO CONFIGURE THE LAPS SETTINGS, IT IS ASSUMED THE SOLUTION HAS BEEN DEPLOYED ALREADY.  
+**NOTE:** IN ORDER TO CONFIGURE THE LAPS SETTINGS, IT IS ASSUMED THE SOLUTION HAS BEEN DEPLOYED ALREADY.  
 
 ### Preferences  
 Computer Configuration > Preferences > Control Panel Settings > Local Users and Groups.  These are the settings to control access to the local groups on the client computers.  Sort the accounts by the Order column.  In each of the settings there are place holders that need to be changed out with your domain groups.  
@@ -35,12 +35,14 @@ Computer Configuration > Preferences > Control Panel Settings > Local Users and 
 * DenyNetworkAccess – This group is set in the Users Rights section of the GPO to deny highly privileged accounts access to the system from the network.  Ensure you remove the place holders and put your Domain Admins and Enterprise Admins group in the preference.  
 * Administrators (built-in) – This group is designed to manage the local administrators group.  Modify this preference and ensure to add the security group that contains your server administrators.  Example used in this document ACL_Servers_LocalAdmins  
 
-### NOTE:  THE BEST PRACTICE IS TO ADD STANDARD DOMAIN USER ACCOUNTS TO ALLOW RDP ACCESS AND THEN FORCE THEM TO PERFORM A RUN AS TO PERFORM ADMINISTRATIVE TASKS.  SINCE THE LOGON CACHE IS SET TO 0, THIS HELPS MITIGATE THE RISK OF LEAVING ADMINISTRATIVE CACHED CREDENTIALS ON THE CLIENTS. WITH THIS IS MIND IT WOULD BE ACCEPTABLE TO ALLOW THE DOMAIN ACCOUNTS CREATED FOR ADMINISTRATIVE ACCESS TO RDP THE SYSTEMS.  
+**NOTE:** THE BEST PRACTICE IS TO ADD STANDARD DOMAIN USER ACCOUNTS TO ALLOW RDP ACCESS AND THEN FORCE THEM TO PERFORM A RUN AS TO PERFORM ADMINISTRATIVE TASKS. SINCE THE LOGON CACHE IS SET TO 0, THIS HELPS MITIGATE THE RISK OF LEAVING ADMINISTRATIVE CACHED CREDENTIALS ON THE CLIENTS. WITH THIS IS MIND IT WOULD BE ACCEPTABLE TO ALLOW THE DOMAIN ACCOUNTS CREATED FOR ADMINISTRATIVE ACCESS TO RDP THE SYSTEMS.  
 
 Policy Definitions - I have included all the current policy definitions that I used to create the client and server GPOs, although I highly recommend you download them yourself.  
 
 Microsoft Office admx/adml files.  
-* Office 2010 - https://www.microsoft.com/en-us/download/details.aspx?id=18968  
-* Office 2013 - https://www.microsoft.com/en-us/download/details.aspx?id=35554  
+
 * Office 2016 - https://www.microsoft.com/en-us/download/details.aspx?id=49030  
 * Microsoft MSS Settings - http://serverfault.com/questions/655914/how-can-i-enable-mss-group-policy-settings-windows-server-2012  
+
+### References  
+[Group Policy Files](https://github.com/cmdcnd/learn/tree/main/docs/Microsoft/GroupPolicy/server/Computer-Security)  
