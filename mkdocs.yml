@@ -146,7 +146,7 @@ nav:
     - Exchange Online:
       - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
   - Training:
-    - Training/Home.md
+    - Training/getting-started.md
     - Coding: Training/coding.md
     - CTF: Training/ctf.md
     - EDR: Training/edr.md
@@ -158,4 +158,4 @@ nav:
     - Threat Hunting: Training/threathunting.md
     - Vendor Blogs/Repos: Training/vendor.md
   - Security Assessment Tools:
-    - Assessment/README.md
+    - Assessment/security-assessment-tools.md
