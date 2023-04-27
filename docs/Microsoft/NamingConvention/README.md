@@ -1,7 +1,6 @@
-## Naming Standards for Workstations and Laptops:
-
-1. Objects in this classification include:  Workstations, Desktops, Laptops, Tablet PC’s, and windows mobile devices.  Windows still has a 15 character limit for NetBIOS names, so this example is designed to maintain that limit.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Workstations and Laptops:  
+* Objects in this classification include:  Workstations, Desktops, Laptops, Tablet PC’s, and windows mobile devices.  Windows still has a 15 character limit for NetBIOS names, so this example is designed to maintain that limit.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -11,14 +10,13 @@
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  [Here is a good reference for CA city name codes](http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm)  Each state should have a state government website with similar codes.  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.</br>
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.</br>
 
-Example Computer Name
+Example Computer Name  
 
-![naming-convention-computer](../../images/naming-convention-computer.png)
+![naming-convention-computer](../../images/naming-convention-computer.png)  
 
-## Naming Standards for Servers:
-
-1. Objects in this classification include server role names.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Servers:  
+* Objects in this classification include server role names.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -28,14 +26,13 @@ Example Computer Name
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.
 
-Example Server Name
+Example Server Name  
 
-![naming-convention-server](../../images/naming-convention-server.png)
+![naming-convention-server](../../images/naming-convention-server.png)  
 
-## Naming Standards for Virtual Servers:
-
-1. Objects in this classification include virtual servers.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Virtual Servers:  
+* Objects in this classification include virtual servers.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -45,14 +42,13 @@ Example Server Name
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
 11-15 | <b>Virtual Machine Session ID:</b>  This number begins with VM and contains 3 additional digits to represent the unique identification for the virtual machines session at that location (e.g. VM021).
 
-Example Virtual Server Name
+Example Virtual Server Name  
 
-![naming-convention-virtualserver](../../images/naming-convention-virtualserver.png)
+![naming-convention-virtualserver](../../images/naming-convention-virtualserver.png)  
 
-## Naming Standards for Network Infrastructure:
-
-1. Objects in this classification include switches, firewalls and routers.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Network Infrastructure:  
+* Objects in this classification include switches, firewalls and routers.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -62,14 +58,13 @@ Example Virtual Server Name
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.
 
-Example Network Infrastructure Name
+Example Network Infrastructure Name  
 
-![naming-convention-networkinfrastructure](../../images/naming-convention-networkinfrastructure.png)
+![naming-convention-networkinfrastructure](../../images/naming-convention-networkinfrastructure.png)  
 
-## Naming Standards for Network Peripherals:
-
-1. Objects in this classification include network devices, such as printers.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Network Peripherals:  
+* Objects in this classification include network devices, such as printers.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -79,14 +74,13 @@ Example Network Infrastructure Name
 8-10 | <b>Site Code.</b>  The 3 digit code identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
 11-15 | <b>Asset Tag.</b>  The 5 digit code that reflects the official <Entity> asset tag affixed to the device.  This provides the asset a unique identity should the Entity or Primary Site code require modification.  This code is unique and cannot be duplicated between devices.  If the entity does not use entity specific Asset Tags, then use the last 5 characters of the Serial Number.  If necessary to ensure uniqueness of active devices, replace the last character with an alphabetical character.
 
-Example Network Peripherals Name
+Example Network Peripherals Name  
 
-![naming-convention-peripherals](../../images/naming-convention-networkperipherals.png)
+![naming-convention-peripherals](../../images/naming-convention-networkperipherals.png)  
 
-## Naming Standards for Service Accounts:
-
-1. Objects in this classification include any accounts that are used to run services or processes on server systems.  The overall length of service accounts should be no longer than 15 characters to comply with the NetBIOS limitation.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Service Accounts:  
+* Objects in this classification include any accounts that are used to run services or processes on server systems.  The overall length of service accounts should be no longer than 15 characters to comply with the NetBIOS limitation.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -96,14 +90,13 @@ Example Network Peripherals Name
 12 | This position will use a "." to delimit the different positions.
 13-15 | <b>Account Type.</b>  The 3 digit code will identify the Active Directory accounts use.  The authorized options in this category are:</br>SVC - Service Account</br>TSK - Scheduled Task
 
-Example Service Account Name
+Example Service Account Name  
 
-![naming-convention-serviceaccount](../../images/naming-convention-serviceaccount.png)
+![naming-convention-serviceaccount](../../images/naming-convention-serviceaccount.png)  
 
-## Naming Standards for Security Groups used as Access Control Lists (ACL):
-
-1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Security Groups used as Access Control Lists (ACL):  
+* Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -114,22 +107,21 @@ X-X | This position will use a "_" to delimit the different positions
 X-X | <b>Object Name.</b>  This will be the friendly name of the object.  e.g. OU Name, GPO Name, Folder Name.  This field is not required if the object is being applied to all objects (for example: XYZACL_Workstation_LocalAdmins ).  Additionally, an Object Name would be necessary if the group is being applied to only one system, (for example: XYZACL_Workstation_XYZNBSAC12345_LocalAdmins ).
 X-X | Permission.  The permission will identify exact permission that the ACL is used (e.g. FullControl, Modify, LocalAdmins ).  Try to make the permission as descriptive as possible.
 
-Example Security group that has delegated control of the Laptops OU
+Example Security group that has delegated control of the Laptops OU  
 
-![naming-convention-securitygroupsacl-laptops](../../images/naming-convention-securitygroupsacl-laptops.png)
+![naming-convention-securitygroupsacl-laptops](../../images/naming-convention-securitygroupsacl-laptops.png)  
 
-Example Security group that is added to the built-in Administrators Group of all client systems.
+Example Security group that is added to the built-in Administrators Group of all client systems.  
 
-![naming-convention-securitygroupsacl-workstations](../../images/naming-convention-securitygroupsacl-workstations.png)
+![naming-convention-securitygroupsacl-workstations](../../images/naming-convention-securitygroupsacl-workstations.png)  
 
-Example Security group that is added to the built-in Administrators Group of one client system.
+Example Security group that is added to the built-in Administrators Group of one client system.  
 
-![naming-convention-securitygroupsacl-oneclient](../../images/naming-convention-securitygroupsacl-oneclient.png)
+![naming-convention-securitygroupsacl-oneclient](../../images/naming-convention-securitygroupsacl-oneclient.png)  
 
-## Naming Standards for Security Groups that contain users:
-
-1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Security Groups that contain users:  
+* Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -139,18 +131,17 @@ Example Security group that is added to the built-in Administrators Group of one
 14 | This position will use a "_" to delimit the different positions.
 15-X | <b>Job Title.</b>  This will be the friendly job title of the employee.  It should be based off the Human Resources position title document.
 
-Example of Security group User Job Title
+Example of Security group User Job Title  
 
-![naming-convention-securitygroupsuser-jobtitle](../../images/naming-convention-securitygroupsuser-jobtitle.png)
+![naming-convention-securitygroupsuser-jobtitle](../../images/naming-convention-securitygroupsuser-jobtitle.png)  
 
-Example of Security Group User for department "all" groups.  In order to facilitate combining all the users in one department there should be a group that all the job title groups can be combined into.
+Example of Security Group User for department "all" groups.  In order to facilitate combining all the users in one department there should be a group that all the job title groups can be combined into.  
 
-![naming-convention-securitygroupsuser-departmentall](../../images/naming-convention-securitygroupsuser-departmentall.png)
+![naming-convention-securitygroupsuser-departmentall](../../images/naming-convention-securitygroupsuser-departmentall.png)  
 
-## Naming Standards for Security Groups that contain computers:
-
-1. Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.
-2. Objects in this classification will be named using the following breakdown.
+### Naming Standards for Security Groups that contain computers:  
+* Objects in this classification include any Security Groups that are applied directly to an object, or used by any device referencing an LDAP group for permissions.  These should always be Domain Local Groups.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -160,14 +151,13 @@ Example of Security Group User for department "all" groups.  In order to facilit
 14 | This position will use a "_" to delimit the different positions.
 15-X | <b>Group Designation.</b>  This will be the friendly group name.  e.g. "All" or "Test".
 
-Example of Security Group Computers
+Example of Security Group Computers  
 
-![naming-convention-securitygroupscomputer](../../images/naming-convention-securitygroupscomputer.png)
+![naming-convention-securitygroupscomputer](../../images/naming-convention-securitygroupscomputer.png)  
 
-## Administrator account naming convention:
-
-1. Objects in this classification include any domain accounts that are used in an administrative capacity.
-2. Objects in this classification will be named using the following breakdown.
+### Administrator account naming convention:  
+* Objects in this classification include any domain accounts that are used in an administrative capacity.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -176,14 +166,13 @@ Example of Security Group Computers
 X | This position will use a "." to delimit the different positions
 X-X | <b>Admin Function.</b>  These last two characters indicate what administrative function the account is used for.</br>wk - Workstation Administrator</br>sv - Server Administrator</br>dc - Domain Administrator</br>nd - Network Administrator e.g. router/switch account</br>admin - Security appliance Administrator
 
-Example Client Administrator account name
+Example Client Administrator account name  
 
-![naming-convention-administrator-client](../../images/naming-convention-administrator-client.png)
+![naming-convention-administrator-client](../../images/naming-convention-administrator-client.png)  
 
-## User account naming convention:
-
-1. Objects in this classification include any standard user accounts.
-2. Objects in this classification will be named using the following breakdown.
+### User account naming convention:  
+* Objects in this classification include any standard user accounts.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -193,22 +182,21 @@ X | This position will use a "." To delimit the different positions.
 X-X | <b>Account Classification.</b>  These three characters will be used to indicate the user type for purposes of any special restrictions that might need to be applied.</br>emp - Employee</br>ctr - Contractor</br>ven - Vendor</br>vol - Volunteer</br>int - Intern
 X-X | <b>Unique Identifier.</b>  This is an optional field and is only used if two or more people have the same first initial and last name.</br>01-99 - Second and subsequent accounts
 
-Examples of standard employee user account
+Examples of standard employee user account  
 
-![naming-convention-useraccount-employee](../../images/naming-convention-useraccount-employee.png)
+![naming-convention-useraccount-employee](../../images/naming-convention-useraccount-employee.png)  
 
-Examples of second standard employee user account for users with the same name
+Examples of second standard employee user account for users with the same name  
 
-![naming-convention-useraccount-employee01](../../images/naming-convention-useraccount-employee01.png)
+![naming-convention-useraccount-employee01](../../images/naming-convention-useraccount-employee01.png)  
 
-Examples of third standard employee user account for users with the same name
+Examples of third standard employee user account for users with the same name  
 
-![naming-convention-useraccount-employee02](../../images/naming-convention-useraccount-employee02.png)
+![naming-convention-useraccount-employee02](../../images/naming-convention-useraccount-employee02.png)  
 
-## User account email address naming convention:
-
-1. Objects in this classification include any standard user email accounts.
-2. Objects in this classification will be named using the following breakdown.
+### User account email address naming convention:  
+* Objects in this classification include any standard user email accounts.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -224,14 +212,13 @@ X-X | <b>Company Domain Name.</b>  For the purposes of this document "XYZ" will 
 X | This position will use a "." to delimit the different positions.
 X-X | TLD.  This position is the top level domain name of "com"
 
-Example of standard user email account naming breakdown
+Example of standard user email account naming breakdown  
 
-![naming-convention-useremail](../../images/naming-convention-useremail.png)
+![naming-convention-useremail](../../images/naming-convention-useremail.png)  
 
-## Distribution List and Organizational Mailbox naming convention:
-
-1. Objects in this classification include any distribution lists and Organizational Mailboxes.
-2. Objects in this classification will be named using the following breakdown.
+### Distribution List and Organizational Mailbox naming convention:  
+* Objects in this classification include any distribution lists and Organizational Mailboxes.  
+* Objects in this classification will be named using the following breakdown.  
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -245,18 +232,17 @@ X-X | <b>Company Domain Name.</b>  For the purposes of this document "XYZ" will 
 X | This position will use a "." to delimit the different positions.
 X-X | TLD.  This position is the top level domain name of "com"
 
-Example of Distribution List
+Example of Distribution List  
 
-![naming-convention-distributionlist](../../images/naming-convention-distributionlist.png)
+![naming-convention-distributionlist](../../images/naming-convention-distributionlist.png)  
 
-Example of Organizational Mailbox
+Example of Organizational Mailbox  
 
-![naming-convention-orgmailbox](../../images/naming-convention-orgmailbox.png)
+![naming-convention-orgmailbox](../../images/naming-convention-orgmailbox.png)  
 
-## Active Directory Sites and Services names:
-
-1. Objects in this classification include any Active Directory Sites that are created.
-2. Objects in this classification will be named using the following breakdown.
+### Active Directory Sites and Services names:  
+* Objects in this classification include any Active Directory Sites that are created.
+* Objects in this classification will be named using the following breakdown.
 
 | Position             | Description                                                                                                 |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -264,37 +250,35 @@ Example of Organizational Mailbox
 4-6 | <b>Site Code.</b>  The 3 digit code that identifies the city.  Here is a good reference for CA city name codes: http://www.dot.ca.gov/hq/structur/strmaint/brlog/table_c.htm  This site has some cities with 4 character abbreviations, but in order to maintain the overall consistency with other areas of this document, use only 3 characters.
 7-8 | <b>Site Number.</b>  This will identify any cities that might have multiple sites.</br>01 - First or only site in a city</br>02-99 - Second and subsequent sites in a city
 
-Example of Active Directory Sites and Services naming breakdown for a city with only one site
+Example of Active Directory Sites and Services naming breakdown for a city with only one site.  
 
-![naming-convention-adsite](../../images/naming-convention-adsite.png)
+![naming-convention-adsite](../../images/naming-convention-adsite.png)  
 
-Example of Active Directory Sites and Services naming breakdown for a city with multiple sites.
+Example of Active Directory Sites and Services naming breakdown for a city with multiple sites.  
 
-![naming-convention-adsite-multiple](../../images/naming-convention-adsite-multiple.png)
+![naming-convention-adsite-multiple](../../images/naming-convention-adsite-multiple.png)  
 
-## ACL, USR and CMP group examples of implementation:
+### ACL, USR and CMP group examples of implementation:  
+This section is designed to provide an example for how to implement role based access.  It can be used for both user and administrator delegation.  Depending on the size of the organization, it could be very manpower intensive to implement, but provides a lot of value in the end.  For the job title.  
 
-This section is designed to provide an example for how to implement role based access.  It can be used for both user and administrator delegation.  Depending on the size of the organization, it could be very manpower intensive to implement, but provides a lot of value in the end.  For the job title 
+* File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.  
 
-1. File Share permissions – The XYZACL_ group is applied as NTFS permissions on a shared folder for a department, with the XYZUSR_ groups nested inside.
+Example of Role Based security groups used on a file server  
 
-Example of Role Based security groups used on a file server
+![naming-convention-rolebasedgroups-fileshare](../../images/naming-convention-rolebasedgroups-fileshare.png)  
 
-![naming-convention-rolebasedgroups-fileshare](../../images/naming-convention-rolebasedgroups-fileshare.png)
+* Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.  
 
-2. Workstation Built-in Administrators group – The XYZACL_Workstation_LocalAdmins is added to the built-in Administrators group of every client using Group Policy Preferences (GPP), with the XYZUSR_ groupname, for the Help Desk Administrator accounts, nested inside.
+Example of Role Based security group used for local administrative access of clients.  
 
-Example of Role Based security group used for local administrative access of clients
+![naming-convention-rolebasedgroups-localadmin](../../images/naming-convention-rolebasedgroups-localadmin.png)  
 
-![naming-convention-rolebasedgroups-localadmin](../../images/naming-convention-rolebasedgroups-localadmin.png)
+* Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
 
-3. Group Policy Permissions – This would allow the filtering of a GPO that is applied to only a specific group of computers.  The same could be done for user accounts using USR groups.
+![naming-convention-rolebasedgroups-gpoaccess](../../images/naming-convention-rolebasedgroups-gpoaccess.png)  
 
-![naming-convention-rolebasedgroups-gpoaccess](../../images/naming-convention-rolebasedgroups-gpoaccess.png)
-
-## Active Directory OU Structure based on resources:
-
-1. This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  If the structure is designed using resources as a base, other sub OUs can created under each resource to further break down objects by physical location, department or function type if needed.  This allows applying GPOs at the resource level so all objects have the base GPO, but still allows deviations by applying another GPO to the subordinate OU.
+### Active Directory OU Structure based on resources:  
+* This document is designed to give an example of an OU structure based on resources.  Often times OU structure is designed by physical location but the objects are not treated any different from a security perspective.  If the structure is designed using resources as a base, other sub OUs can created under each resource to further break down objects by physical location, department or function type if needed.  This allows applying GPOs at the resource level so all objects have the base GPO, but still allows deviations by applying another GPO to the subordinate OU.  
 
 domain.com
   - orgname (I prefer to create a root level OU and create resource OUs under it.  This makes for a cleaner interface.  It is also usefull for a large enterprise that has multiple departments, each with their own IT department)
@@ -324,21 +308,21 @@ domain.com
       - admin
       - serviceaccount
 
-Example OU structure
+Example OU structure  
 
-![naming-convention-activedirectory-ou](../../images/naming-convention-activedirectory-ou.png)
+![naming-convention-activedirectory-ou](../../images/naming-convention-activedirectory-ou.png)  
 
-Example OU with security group for file share
+Example OU with security group for file share  
 
-![naming-convention-activedirectory-ou-file](../../images/naming-convention-activedirectory-ou-file.png)
+![naming-convention-activedirectory-ou-file](../../images/naming-convention-activedirectory-ou-file.png)  
 
-Example OU with security group for client local administrator group
+Example OU with security group for client local administrator group  
 
-![naming-convention-activedirectory-ou-client](../../images/naming-convention-activedirectory-ou-client.png)
+![naming-convention-activedirectory-ou-client](../../images/naming-convention-activedirectory-ou-client.png)  
 
-Example OU with security group for Active Directory delegation
+Example OU with security group for Active Directory delegation  
 
-![naming-convention-activedirectory-ou-activedirectory](../../images/naming-convention-activedirectory-ou-activedirectory.png)
+![naming-convention-activedirectory-ou-activedirectory](../../images/naming-convention-activedirectory-ou-activedirectory.png)  
 
-## References  
+### References  
 [Naming Convention Working Documents](https://github.com/cmdcnd/learn/tree/main/docs/files)  
