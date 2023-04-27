@@ -71,6 +71,11 @@ v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_reports@mail.mil,mailto:usarmy.h
 
 ![army.mil DMARC Example](../../images/exchangeonline-dmarc-example.png)  
 
+Use [MXToolBox DMARC Generator](https://mxtoolbox.com/DMARCRecordGenerator.aspx) to create DMARC records.  
+
+* Example dot.gov:  
+![Generate DMARC Record](../../images/exchangeonline-dmarcgenerator-example.png)  
+
 ### References  
 [Exchange Online](https://learn.microsoft.com/en-us/exchange/exchange-online)  
 [Exchange Online Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide)  
