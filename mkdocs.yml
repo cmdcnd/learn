@@ -146,7 +146,7 @@ nav:
     - Exchange Online:
       - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
   - Training:
-    - Training/Training.md
+    - Training/Home.md
     - Coding: Training/coding.md
     - CTF: Training/ctf.md
     - EDR: Training/edr.md
