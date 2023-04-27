@@ -143,4 +143,6 @@ nav:
         - Microsoft/GroupPolicy/domaincontroller/README.md
   - Microsoft365:
     - Microsoft365/index.md
+    - Exchange Online:
+      - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
 
