@@ -26,11 +26,6 @@ Use [MXToolBox SPF Generator](https://mxtoolbox.com/SPFRecordGenerator.aspx) to 
 v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:spf-a.hotmail.com include:_spf1-meo.microsoft.com -all
 ```  
 
-* Example state.ca.gov:  
-```
-v=spf1 include:spf.protection.outlook.com ip4:216.52.6.89 ip4:156.60.157.112/28 ip4:134.186.201.240/28 ip4:156.60.5.32/28 ip4:161.149.240.176 ip4:149.72.229.14 -all
-```  
-
 * Example nsa.gov:  
 ```
 v=spf1 ip4:214.29.60.2/32 ip4:214.29.60.3/32 include:_spf.eemsg.mail.mil include:amazonses.com ~all
