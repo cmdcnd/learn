@@ -74,5 +74,6 @@ Use [MXToolBox DMARC Generator](https://mxtoolbox.com/DMARCRecordGenerator.aspx)
 ### References  
 [Exchange Online](https://learn.microsoft.com/en-us/exchange/exchange-online)  
 [Exchange Online Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide)  
+[Exchange Online Anti-Phishing Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-phishing-protection-about?view=o365-worldwide)  
 [Define SPF Record](https://support.google.com/a/answer/10683907?sjid=14513075492794864441-NA)  
 [Define DMARC Record](https://dmarc.org/overview/)  
