@@ -12,6 +12,8 @@ Links for Training that does not fit anywhere else.
 [Awesome SOC](https://github.com/cyb3rxp/awesome-soc)  
 * Plextrac collection of information security training/blogs/certifications.    
 [Plextrac](https://plextrac.com/wp-content/uploads/2022/05/Hacking-Resources.pdf)  
+* Prepare for a career as a cybersecurity analyst with a professional certificate from Google. Learn job-ready skills that are in-demand, like how to identify common risks, threats, and vulnerabilities, as well as the techniques to mitigate them.  
+[Google Cyber Security Certificate](https://grow.google/certificates/cybersecurity/#?modal_active=none)  
 
 ### Cyber Common Core Training  
 * Cyber Common Technical Core - Networking Module  
