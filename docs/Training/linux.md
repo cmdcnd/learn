@@ -2,4 +2,5 @@ Linux is an open-source operating system widely used in the IT industry for serv
 
 * This intro course into programming and running things on Linux is free of charge. The course aims to bring the reader from a novice to an intermediate professional – with focus on how to deploy .Net services on Linux and in Chapter 4, on Kubernetes.  
 [Linux Intro Course](https://github.com/haf/linux-intro-course)  
+* An evolving how-to guide for securing a Linux server that, hopefully, also teaches you a little about security and why it matters.  
 [Securing a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)  
