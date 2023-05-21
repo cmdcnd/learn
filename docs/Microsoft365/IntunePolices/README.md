@@ -11,6 +11,7 @@ The restored Security Baseline is named `Windows Business Baseline Policy` and c
   ![alt text](../../images/Intune-security-baselines.png "Security Baselines")  
 
 There are a few settings that have been removed from the Security Baseline to improve functionality in a business environment.  Each organization will have to determine what works best for them and test before applying to production environments.  Here are the items that have been changed or removed in the Security Baseline:  
+
 * `BitLocker` -> `BitLocker removable drive policy` -> `Not configured`  This is a good policy to leave on, but depends on how much the organization uses removable media.  
 ![alt text](../../images/Intune-bitlocker.png "BitLocker Removable Drive Policy")  
 
@@ -56,6 +57,7 @@ Now that the Security Baseline has been applied, the rest of the STIG settings n
 
 ### Importing Policies  
 Importing/Restoring the policies is accomplished by using the `Intune Backup & Restore` module, see links in the [References Section](#References) for detailed instructions on all the modules options.  This document will only provide examples of required commands to import templates.  Once the policies are imported they will need assignment to groups that contain computer objects.  
+
 * Download policies using either by cloning the repository or downloading as a zip and extract the contents.   
 * Installing required modules  
 Note: Open PowerShell as an admin to perform the following tasks  
