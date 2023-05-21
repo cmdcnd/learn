@@ -10,34 +10,41 @@ The restored Security Baseline is named `Windows Business Baseline Policy` and c
   * `Endpoint security` -> `Security baselines` -> `Security Baseline for Windows 10 and later`  
   ![alt text](../../images/Intune-security-baselines.png "Security Baselines")  
 
-There are a few settings that have been removed from the Security Baseline to improve functionality in a business environment.  Each organization will have to determine what works best for them and test before applying to production environments.  Here are the items that have been changed or removed in the Security Baseline:
-  * `BitLocker` -> `BitLocker removable drive policy` -> `Not configured`  This is a good policy to leave on, but depends on how much the organization uses removable media.  
-  ![alt text](../../images/Intune-bitlocker.png "BitLocker Removable Drive Policy")  
-  * `Local Policies Security Options` -> `Standard user elevation prompt behavior` -> `Prompt for credentials on the secure desktop`  
-  Note: If the organization is using a Remote Assistance solution this might have to be changed to just `Prompt for credentials`.  Prompting for credentials on the secure desktop will not allow administrators to type in credentials using solutions such as Remote Assistance.  
-  ![alt text](../../images/Intune-uac.png "UAC")
-  * `Microsoft Defender` -> `Block all Office applications from creating child processes` -> `Audit mode`  This is actually a great setting, but have found it to be problematic with normal application operation.  
-  ![alt text](../../images/Intune-defender.png "Microsoft Defender child processes")
-  * `Firewall` has been set to `Not configured`.  The Firewall settings have been moved to separate policies here: `Endpoint security` -> `Firewall`.  
-  ![alt text](../../images/Intune-firewall.png "Firewall")  
+There are a few settings that have been removed from the Security Baseline to improve functionality in a business environment.  Each organization will have to determine what works best for them and test before applying to production environments.  Here are the items that have been changed or removed in the Security Baseline:  
+* `BitLocker` -> `BitLocker removable drive policy` -> `Not configured`  This is a good policy to leave on, but depends on how much the organization uses removable media.  
+![alt text](../../images/Intune-bitlocker.png "BitLocker Removable Drive Policy")  
+
+* `Local Policies Security Options` -> `Standard user elevation prompt behavior` -> `Prompt for credentials on the secure desktop`  
+Note: If the organization is using a Remote Assistance solution this might have to be changed to just `Prompt for credentials`.  Prompting for credentials on the secure desktop will not allow administrators to type in credentials using solutions such as Remote Assistance.  
+![alt text](../../images/Intune-uac.png "UAC")  
+
+* `Microsoft Defender` -> `Block all Office applications from creating child processes` -> `Audit mode`  This is actually a great setting, but have found it to be problematic with normal application operation.  
+![alt text](../../images/Intune-defender.png "Microsoft Defender child processes")  
+
+* `Firewall` has been set to `Not configured`.  The Firewall settings have been moved to separate policies here: `Endpoint security` -> `Firewall`.  
+![alt text](../../images/Intune-firewall.png "Firewall")  
 
 ### Microsoft Firewall  
 * Windows Business Firewall Policy.  These baselines have more granularity than the Security baseline.  
 Note: If the organization systems are only joined to Azure, then only the Public profile is used.  
-  * `Endpoint security` -> `Firewall`
-  All three profiles have been set the same.  
-  ![alt text](../../images/Intune-firewall-settings.png "Firewall Settings")
+
+* `Endpoint security` -> `Firewall`  
+All three profiles have been set the same.  
+![alt text](../../images/Intune-firewall-settings.png "Firewall Settings")  
 
 * Windows Business Firewall Rules Policy Has one rule to allow ICMP from the default gateway, generally used by DHCP to validate addresses.  Most organizations will need to create additional rules if the systems are managed in an Enterprise environment.  
 
 ### Configuration Profiles  
 Now that the Security Baseline has been applied, the rest of the STIG settings need to be applied using Configuration profiles.  The provided templates are in 2 different formats.  `Setting Catalog` is the newest format that allows combining more settings into a single policy but only works for Windows settings and applications.  In order to configure applications such as Chrome and Adobe, a `custom profile` must be used.  This repository contains a total of three policies:  
+
 * Windows Business Computer Configuration Policy:  This policy contains a lot of settings, primarily for Office.  While using `Setting Catalog` policies makes it easier to manage everything in one policy, it is a little clunky trying to add new settings.  Meaning you have to be patient when adding new items and try not to add too many at once.   
-  * Microsoft Office Settings: The main changes organizations tend to make is allowing macros.  The current template has them set to disallow all macros with no notification to the user.  While this is the safest setting, it may not work in all organizations.  If the organization still requires macros, at least keep the setting `Block macros from running in Office files from the Internet (User)`.  
-  ![alt text](../../images/Intune-macro.png "Office Macros")
-  * Logon Banner: Change the logon banner to meet the organization requirements:  
-  `Local Policies Security Options` -> `Interactive Logon Message Text For Users Attempting To Log On` and `Interactive Logon Message Title For Users Attempting To Log On`  
-* Windows Business Adobe Acrobat Reader DC Policy: This policy comes from the [DoD GPO Download](https://public.cyber.mil/stigs/gpo/).  In it you will find the Chrome template here: `Intune Policies/Device Configuration`.  The following settings were removed:
+* Microsoft Office Settings: The main changes organizations tend to make is allowing macros.  The current template has them set to disallow all macros with no notification to the user.  While this is the safest setting, it may not work in all organizations.  If the organization still requires macros, at least keep the setting `Block macros from running in Office files from the Internet (User)`.  
+![alt text](../../images/Intune-macro.png "Office Macros")  
+
+* Logon Banner: Change the logon banner to meet the organization requirements:  
+`Local Policies Security Options` -> `Interactive Logon Message Text For Users Attempting To Log On` and `Interactive Logon Message Title For Users Attempting To Log On`  
+
+* Windows Business Adobe Acrobat Reader DC Policy: This policy comes from the [DoD GPO Download](https://public.cyber.mil/stigs/gpo/).  In it you will find the Chrome template here: `Intune Policies/Device Configuration`.  The following settings were removed:  
   * DisplayName: `STIG ID DTBC-0004` Description: `Sites ability to show pop-ups must be disabled`  
   * DisplayName: `STIG ID DTBC-0005` Description: `Extensions installation must be blocklisted by default`  
   * DisplayName: `STIG ID DTBC-0006` Description: `Extensions that are approved for use must be allowlisted`   
@@ -52,33 +59,34 @@ Importing/Restoring the policies is accomplished by using the `Intune Backup & R
 * Download policies using either by cloning the repository or downloading as a zip and extract the contents.   
 * Installing required modules  
 Note: Open PowerShell as an admin to perform the following tasks  
-  * Install `Intune Backup & Restore` and `Microsoft Graph Intune` module
-  ```
-  Install-Module -Name IntuneBackupAndRestore
-  Install-Module -Name Microsoft.Graph.Intune
-  ```
 
-  * Import both modules  
-  ```
-  Import-Module -Name IntuneBackupAndRestore
-  Import-Module -Name Microsoft.Graph.Intune
-  ```
+* Install `Intune Backup & Restore` and `Microsoft Graph Intune` module
+```
+Install-Module -Name IntuneBackupAndRestore
+Install-Module -Name Microsoft.Graph.Intune
+```
 
-  * Connect to MSGraph.  This will open a browser window to login with credentials that has permissions to manage Intune.  Generally, these will be global admin credentials.  
-  ```
-  Connect-MSGraph
-  ```
+* Import both modules  
+```
+Import-Module -Name IntuneBackupAndRestore
+Import-Module -Name Microsoft.Graph.Intune
+```
 
-  * Import/Restore the templates to Intune  
-  Note: The path should be the folder in the screen shot.  
-  ```
-  Start-IntuneRestoreConfig -Path c:\intunebackups\
-  ```
-  ![alt text](../../images/Intune-rootdirectory.png "Root Folder")
+* Connect to MSGraph.  This will open a browser window to login with credentials that has permissions to manage Intune.  Generally, these will be global admin credentials.  
+```
+Connect-MSGraph
+```
+
+* Import/Restore the templates to Intune  
+Note: The path should be the folder in the screen shot.  
+```
+Start-IntuneRestoreConfig -Path c:\intunebackups\
+```
+![alt text](../../images/Intune-rootdirectory.png "Root Folder")
 
 
 #### References  
-[Intune Policy Files](https://github.com/cmdcnd/learn/tree/main/docs/Microsoft365/IntunePolicies)
+[Intune Policy Files](https://github.com/cmdcnd/learn/tree/main/docs/Microsoft365/IntunePolices)
 [STIG Viewer User Guide](https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_STIG_Viewer_2-x_User_Guide_V1R11.pdf)  
 [STIG Viewer Video](https://youtu.be/LdBfJZ7aK9w)  
 [SCC Training Videos](https://www.niwcatlantic.navy.mil/scap/videos/)  
