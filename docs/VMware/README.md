@@ -5,7 +5,7 @@ Most VMware instances use a back-end storage solution like a SAN or NAS.  See [V
 
 This command will compress the folder with the VM into a single file for download.    
 ```bash
-tar -czvf vmfs/volumes/RangePureStorage01/Team01-LW01.tar.gz vmfs/volumes/RangePureStorage01/Team01-LW01
+tar -czvf /vmfs/volumes/RangePureStorage01/Team01-LW01.tar.gz /vmfs/volumes/RangePureStorage01/Team01-LW01
 ```  
 ![Compress Folder](../images/VMware-compressfolder.png)  
 
