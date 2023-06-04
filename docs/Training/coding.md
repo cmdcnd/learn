@@ -1,10 +1,10 @@
 Learning coding or programming is an essential skill for cybersecurity professionals. First, understanding how to code enables security teams to develop and customize security tools and applications tailored to their specific needs. This can include everything from creating scripts for automating tasks to developing custom security applications. Second, coding skills are vital for performing security assessments and penetration testing. Security professionals with coding skills can develop custom exploit code and scripts to identify vulnerabilities in networks and applications. Third, coding skills are necessary for understanding malware and developing countermeasures against it. Malware analysis requires reverse engineering and understanding the code behind malicious software. Finally, learning how to code is beneficial for cybersecurity professionals who want to specialize in areas such as cryptography, blockchain, and artificial intelligence. In summary, coding is an essential skill for cybersecurity professionals, enabling them to perform tasks ranging from customizing security tools to developing countermeasures against malware and performing security assessments.  
 
-* Code Academy provides programming training.  
-[Code Academy](https://www.codeacademy.com)  
-* Automate administrative tasks by using PowerShell  
-[Microsoft PowerShell](https://learn.microsoft.com/en-us/training/paths/powershell/)  
-* Welcome to the Microsoft Security Dev repository! This repository is a landing page to learn about Microsoft security APIs, services and communities. This will enable application developers to build security applications catering to different requirements. Furthermore, this repo is a starting point to share code, libraries, notebooks, workbooks, and queries for building connected experiences.  
-[Microsoft Security Developer](https://github.com/microsoft/securitydev)  
-* MITx courses embody the inventiveness, openness, rigor and quality that are hallmarks of MIT, and many use materials developed for MIT residential courses in the Institute's five schools and 33 academic disciplines. Browse MITx courses below.  
-* [MIT Courses Through EDX](https://www.edx.org/school/mitx)  
+Code Academy provides programming training.  
+#### [Code Academy](https://www.codeacademy.com)  
+Automate administrative tasks by using PowerShell  
+#### [Microsoft PowerShell](https://learn.microsoft.com/en-us/training/paths/powershell/)  
+Welcome to the Microsoft Security Dev repository! This repository is a landing page to learn about Microsoft security APIs, services and communities. This will enable application developers to build security applications catering to different requirements. Furthermore, this repo is a starting point to share code, libraries, notebooks, workbooks, and queries for building connected experiences.  
+#### [Microsoft Security Developer](https://github.com/microsoft/securitydev)  
+MITx courses embody the inventiveness, openness, rigor and quality that are hallmarks of MIT, and many use materials developed for MIT residential courses in the Institute's five schools and 33 academic disciplines. Browse MITx courses below.  
+#### [MIT Courses Through EDX](https://www.edx.org/school/mitx)  
