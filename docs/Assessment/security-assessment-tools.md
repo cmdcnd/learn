@@ -115,4 +115,11 @@ The successful exploitation of hosts or services operated, controlled, or provid
 
 * Tools that can be used for this task.  
 [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)  
-[Mitre Caldera](https://github.com/mitre/caldera)  
+[Mitre Caldera](https://github.com/mitre/caldera)
+
+### Third Party Security Assessment Docs  
+[SalesForce Security Assessment](https://help.salesforce.com/s/articleView?id=000394469&type=1)  
+[SalesForce Security Assessment Agreement](https://help.salesforce.com/s/articleView?id=000392845&type=1)  
+[Google Cloud Platform Acceptable Use Policy](https://cloud.google.com/terms/aup)  
+[Google Cloud Platform Terms of Service](https://cloud.google.com/terms/)  
+[AWS Customer Support Policy for Penetration Testing](https://aws.amazon.com/security/penetration-testing/)  
