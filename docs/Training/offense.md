@@ -9,4 +9,6 @@ Learning offensive operations or ethical hacking offers significant benefits to 
 * A curated list of hacking environments where you can train your cyber skills free, legally and safely.  
 [Cyber Skills](https://github.com/joe-shenouda/awesome-cyber-skills)  
 * Hands-on cyber security training through real-world scenarios  
-[Try HackMe](https://tryhackme.com/)  
+[Try HackMe](https://tryhackme.com/)
+* Empowering the world to fight cyber threats with indispensable cybersecurity skills and resources. Build the path to a secure future with OffSec. 
+[OFFSEC YouTube Channel](https://www.youtube.com/@OffSecTraining/about)  
