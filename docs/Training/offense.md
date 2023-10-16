@@ -12,3 +12,5 @@ Learning offensive operations or ethical hacking offers significant benefits to 
 [Try HackMe](https://tryhackme.com/)
 * Empowering the world to fight cyber threats with indispensable cybersecurity skills and resources. Build the path to a secure future with OffSec. 
 [OFFSEC YouTube Channel](https://www.youtube.com/@OffSecTraining/about)  
+* PentesterAcademy Attack-Defense Labs!  
+[Attack Defense](https://attackdefense.com/)  
