@@ -89,10 +89,10 @@ Start-IntuneRestoreConfig -Path c:\intunebackups\
 
 #### References  
 [Intune Policy Files](https://github.com/cmdcnd/learn/tree/main/docs/Microsoft365/IntunePolices)
-[STIG Viewer User Guide](https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_STIG_Viewer_2-x_User_Guide_V1R11.pdf)  
+[STIG Viewer User Guide](https://dl.dod.cyber.mil/wp-content/uploads/stigs/pdf/U_STIG_Viewer_3-x_User_Guide_V1R2.pdf)  
 [STIG Viewer Video](https://youtu.be/LdBfJZ7aK9w)  
 [SCC Training Videos](https://www.niwcatlantic.navy.mil/scap/videos/)  
-[SCC SCAP Tool](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/scc-5.4.2_Windows_bundle.zip)  
-[STIG Viewer](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_STIGViewer_2-15_Win64.zip)  
+[SCC SCAP Tool](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/scc-5.8_Windows_bundle.zip)  
+[STIG Viewer](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_STIGViewer-win32_x64-3-2-0.zip)  
 [Intune Backup and Restore module(GitHub)](https://github.com/jseerden/IntuneBackupAndRestore)  
 [Intune Backup and Restore module(PowerShell Gallery)](https://www.powershellgallery.com/packages/IntuneBackupAndRestore)  
