@@ -30,14 +30,14 @@ Ideally, clients and servers should only be allowed to communicate with other sy
 In order to manage this in an enterprise environment it is necessary to standardize subnets and vlans.  I cannot emphasize enough how important it is to plan out distribution of IP space ahead of time instead of just grabbing the next available subnet.  Take some time and plan this out, better to spend a few days mapping everything out ahead of time.  Ideally, separate VRFs should be created for traversing the WAN for each subnet.   See table 2 as an example.  (Note: This table is a simplification of what would actually be required. It is designed to provide a generic example to start from)  
 
 ### Table 2  
-| Location             | Subnet          | VLAN                          | Note                           |
-| -------------------- | --------------- | ----------------------------- | ------------------------------ |
-| City#1               | 10.1.0.0/24     | 10                            | City#1 wired clients           |
-| City#1 Wireless      | 10.1.1.0/24     | 20                            | City#1 wireless clients        |
-| City#1 Printers      | 10.1.2.0/24     | 30                            | City#1 Printers                |
-| City#2               | 10.2.0.0/24     | 10                            | City#1 wired clients           |
-| City#2 Wireless      | 10.2.1.0/24     | 20                            | City#1 wireless clients        |
-| City#2 Printers      | 10.2.2.0/24     | 30                            | City#1 Printers                |
+| Location            | Subnet          | VLAN                          | Note                          |
+| --------------------| --------------- | ----------------------------- | ----------------------------- |
+| City1               | 10.1.0.0/24     | 10                            | City1 wired clients           |
+| City1 Wireless      | 10.1.1.0/24     | 20                            | City1 wireless clients        |
+| City1 Printers      | 10.1.2.0/24     | 30                            | City1 Printers                |
+| City2               | 10.2.0.0/24     | 10                            | City1 wired clients           |
+| City2 Wireless      | 10.2.1.0/24     | 20                            | City1 wireless clients        |
+| City2 Printers      | 10.2.2.0/24     | 30                            | City1 Printers                |
 
 For Active Directory integrated systems use the windows firewall managed through Group Policy (GPO), Linux systems use iptables or UFW and network devices use ACLs on layer 3 interfaces.
 
