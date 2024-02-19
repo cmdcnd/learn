@@ -11,4 +11,5 @@ http://video.ch9.ms/sessions/teched/na/2014/DCIM-B368.pptx
 http://techgenix.com/hunt-down-kill-malware-sysinternals-tools-part1/  
 http://techgenix.com/Hunt-Down-Kill-Malware-Sysinternals-Tools-Part2/  
 http://techgenix.com/Hunt-Down-Kill-Malware-Sysinternals-Tools-Part3/  
-http://www.itninja.com/blog/view/malware-hunting-with-sysinternals-tools  
+http://www.itninja.com/blog/view/malware-hunting-with-sysinternals-tools
+https://www.youtube.com/@VirusTotal_community/videos  
