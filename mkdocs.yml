@@ -146,6 +146,7 @@ nav:
     - Exchange Online:
       - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
     - Intune Policies: Microsoft365/IntunePolices/README.md
+    - Azure: Microsoft365/Azure.md
   - Training:
     - Training/getting-started.md
     - Coding: Training/coding.md
