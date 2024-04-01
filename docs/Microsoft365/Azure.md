@@ -50,9 +50,9 @@ You must create your security key and give it a unique PIN before you can sign i
     *   Beginning with Windows 11 version 23H2, you can sign in with your work or school account and click **Next**. Below **More choices**, choose **Security key** and click **Next**.  
           
         ![Screenshot of how to save a security key on Windows 11.](../images/Microsoft365-Azure-StorePasskey.png)  
-        
+
     *   On earlier versions of Windows, the browser may show the QR pairing screen to register a passkey that's stored on another mobile device. To register a passkey that's stored on a security key instead, insert your security key and touch it to continue.  
-          
+
         ![Screenshot of how to save a security key on Windows 10.](../images/Microsoft365-Azure-StorePasskeyQRCode.png)  
         
     
