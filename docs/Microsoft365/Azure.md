@@ -1,5 +1,25 @@
-### Deploy YubiKey in Microsoft 365  
-Register a security key  
+### Register YubiKey Devices (admin’s part)  
+-----------------------------------  
+
+1.  Sign in to [Microsoft Entra Admin Center](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods/fromNav/)  
+
+2.  In the left-hand navigation menu, go to **Protection** > **Authentication mentods** > **Policies** and click **FIDO2 security key.**  
+
+    ![Admin Policy](../images/Microsoft365-Azure-AdminPolicy.png)  
+
+3.  On the **Enable and Target** tab, set the switch to **Enable** and choose the users who will be able to register and use security keys. You can select **All users** or add specific groups. By clicking the **Exclude** tab, you can choose the groups whose members won’t be able to use a YubiKey.
+
+4.  The Configure tab offers more advanced options:  
+    * Allow self-service set up – lets a user register a key through the MySecurityInfo portal by themselves. Enabling this option is required if you want to allow your users to register YubiKey devices.  
+    * Enforce attestation – when set to Yes, lets you additionally verify a security key for metadata using the FIDO Alliance Metadata Service and additional tests by Microsoft.  
+    * Enforce key restrictions – when set to Yes, your users will be able to register only those keys that have a specific Authenticator Attestation GUID (AAGUID). You can also block the use of keys with a specific AAGUID.  
+
+    ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)     
+
+5.  Finally, click Save at the bottom of the window to apply your changes.  
+
+
+## YubiKey configuration in Microsoft 365 (user’s part)  
 -----------------------  
 
 You must create your security key and give it a unique PIN before you can sign in to your work or school account using the key. You may have up to 10 keys registered with your account.  
