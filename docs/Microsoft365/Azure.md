@@ -30,11 +30,9 @@ You must create your security key and give it a unique PIN before you can sign i
       
     ![Add method box, with Security key selected](../images/Microsoft365-Azure-AddMethod.png)  
     
-3.  Select **Add**, and then select the type of security key you have, either USB device or NFC device.  
+3.  Select **Add**, and then select **USB** device.  
       
-    ![Choose whether you have a USB or NFC type of security key](../images/Microsoft365-Azure-SecurityKey.png)  
-    
-    **Note:** If you aren't sure which type of security key you have, refer to the manufacturer's documentation. If you aren't sure about the manufacturer, contact your organization's help desk for assistance.  
+    ![Choose whether you have a USB or NFC type of security key](../images/Microsoft365-Azure-SecurityKey.png)   
     
 4.  Make sure that you have your security key physically available, and then on the **Security key** page, select **Next**.  
       
