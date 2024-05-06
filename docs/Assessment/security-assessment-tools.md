@@ -123,3 +123,5 @@ The successful exploitation of hosts or services operated, controlled, or provid
 [Google Cloud Platform Acceptable Use Policy](https://cloud.google.com/terms/aup)  
 [Google Cloud Platform Terms of Service](https://cloud.google.com/terms/)  
 [AWS Customer Support Policy for Penetration Testing](https://aws.amazon.com/security/penetration-testing/)  
+[Wordpress.com Security Assessment](https://wordpress.com/support/security/#security-testing)  
+[Wordpress.com HackerOne Bug Bounty Program](https://hackerone.com/automattic?type=team)  
