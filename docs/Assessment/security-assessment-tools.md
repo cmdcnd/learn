@@ -60,6 +60,8 @@ The successful exploitation of hosts or services operated, controlled, or provid
 * Tools that can be used for this task.  
 [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)  
 [Mitre Caldera](https://github.com/mitre/caldera)  
+[PowerShell Empire](https://github.com/BC-SECURITY/Empire)  
+[Sliver](https://github.com/BishopFox/sliver)  
 
 ### INTERNAL TASKS  
 --------------------  
@@ -115,7 +117,9 @@ The successful exploitation of hosts or services operated, controlled, or provid
 
 * Tools that can be used for this task.  
 [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)  
-[Mitre Caldera](https://github.com/mitre/caldera)
+[Mitre Caldera](https://github.com/mitre/caldera)  
+[PowerShell Empire](https://github.com/BC-SECURITY/Empire)  
+[Sliver](https://github.com/BishopFox/sliver)  
 
 ### Third Party Security Assessment Docs  
 [SalesForce Security Assessment](https://help.salesforce.com/s/articleView?id=000394469&type=1)  
