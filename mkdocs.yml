@@ -161,6 +161,6 @@ nav:
     - Threat Hunting: Training/threathunting.md
     - Vendor Blogs/Repos: Training/vendor.md
   - Security Assessment Tools:
-    - Assessment/security-assessment-tools.md
+    - Assessment/Security-Assessment.md
   - VMware: VMware/README.md
   - SCAP: Scap/scap.md
