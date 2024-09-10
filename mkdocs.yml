@@ -160,7 +160,7 @@ nav:
     - Random: Training/random.md
     - Threat Hunting: Training/threathunting.md
     - Vendor Blogs/Repos: Training/vendor.md
-  - Security Assessment Tools:
+  - Security Assessment:
     - Assessment/Security-Assessment.md
   - VMware: VMware/README.md
   - SCAP: Scap/scap.md
