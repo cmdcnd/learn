@@ -115,6 +115,27 @@ The successful exploitation of hosts or services operated, controlled, or provid
 [PowerShell Empire](https://github.com/BC-SECURITY/Empire)  
 [Sliver](https://github.com/BishopFox/sliver)  
 
+### Vendor Notification  
+```
+Subject: Request for Approval and Notification of Upcoming Security Assessment and Penetration Test
+
+Dear [Third-Party Vendor Name],
+
+As part of our ongoing commitment to ensuring the security and integrity of our platform, we are notifying you that our site will be undergoing a comprehensive security assessment, including penetration testing. This assessment will be conducted by [insert company name], an accredited third-party security firm, during the period from [insert start date] to [insert end date].
+
+We kindly request your formal approval to proceed with this testing. Additionally, if there are any specific restrictions, guidelines, or requirements related to conducting penetration tests on your platform or services, please provide the relevant documentation and protocols. This will enable us to ensure full compliance with your security policies and avoid any disruption to your services.
+
+Should you require further information about the scope of the assessment or the testing methodologies, please do not hesitate to contact us. We look forward to your confirmation and any guidance you may provide.
+
+Thank you for your prompt attention to this matter, and we appreciate your continued partnership in maintaining the security of our systems.
+
+Best regards,
+[Your Full Name]
+[Your Job Title]
+[Your Company Name]
+[Your Contact Information]
+```  
+
 ### Third Party Security Assessment Docs  
 [SalesForce Security Assessment](https://help.salesforce.com/s/articleView?id=000394469&type=1)  
 [SalesForce Security Assessment Agreement](https://help.salesforce.com/s/articleView?id=000392845&type=1)  
