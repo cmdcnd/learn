@@ -123,6 +123,11 @@ Dear [Third-Party Vendor Name],
 
 As part of our ongoing commitment to ensuring the security and integrity of our platform, we are notifying you that our site will be undergoing a comprehensive security assessment, including penetration testing. This assessment will be conducted by [insert company name], an accredited third-party security firm, during the period from [insert start date] to [insert end date].
 
+The testing will focus on the following sites and systems:  
+
+* [Site/Platform 1] - [Brief description or URL]  
+* [Site/Platform 2] – [Brief description or URL]  
+
 We kindly request your formal approval to proceed with this testing. Additionally, if there are any specific restrictions, guidelines, or requirements related to conducting penetration tests on your platform or services, please provide the relevant documentation and protocols. This will enable us to ensure full compliance with your security policies and avoid any disruption to your services.
 
 Should you require further information about the scope of the assessment or the testing methodologies, please do not hesitate to contact us. We look forward to your confirmation and any guidance you may provide.
