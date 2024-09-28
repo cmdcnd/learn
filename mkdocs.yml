@@ -152,6 +152,7 @@ nav:
     - Training/getting-started.md
     - Coding: Training/coding.md
     - CTF: Training/ctf.md
+    - DoD: Training/dod.md
     - EDR: Training/edr.md
     - Linux: Training/linux.md
     - Microsoft: Training/microsoft.md
