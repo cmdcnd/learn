@@ -14,3 +14,5 @@ Learning offensive operations or ethical hacking offers significant benefits to 
 [OFFSEC YouTube Channel](https://www.youtube.com/@OffSecTraining/about)  
 * PentesterAcademy Attack-Defense Labs!  
 [Attack Defense](https://attackdefense.com/)  
+* CobaltStrike Training Videos  
+[CobaltStrike](https://www.youtube.com/@CobaltStrikeArchive)  
