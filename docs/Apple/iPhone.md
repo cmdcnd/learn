@@ -90,6 +90,8 @@
   1. Go to **Settings > Privacy & Security > Analytics & Improvements**.  
   2. Disable options you’re not comfortable with.  
 
+---
+
 ## Step-by-Step Guide to Secure an Apple iPhone Managed by an MDM Server  
 ### 1. Deploy a Compliant MDM Server  
 - **Why**: The MDM server enforces DISA STIG policies and configurations remotely.  
