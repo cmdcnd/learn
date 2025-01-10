@@ -178,9 +178,7 @@
   2. Apply necessary changes to the MDM profiles.  
 
 ## References
-- [Apple Official Support: Privacy and Security](https://support.apple.com/guide/iphone/privacy-and-security-iph01908cbd3/ios)  
-- [iOS Security Guide (Apple)](https://www.apple.com/business/docs/site/iOS_Security_Guide.pdf)  
-- [Consumer Reports: How to Secure Your Smartphone](https://www.consumerreports.org)  
+- [iPhone Security Guide](https://github.com/iAnonymous3000/iOS-Hardening-Guide)  
 - [DISA STIG Viewer](https://public.cyber.mil/stigs/)  
 - [Apple MDM Documentation](https://support.apple.com/guide/mdm/welcome/web)  
 - [NIST Mobile Security Standards](https://www.nist.gov/)  
