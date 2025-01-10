@@ -166,6 +166,5 @@ nav:
   - Security Assessment:
     - Assessment/Security-Assessment.md
   - VMware: VMware/README.md
-  - SCAP: Scap/scap.md
   - Wireless:
     - WLAN MGMT: Wireless/README.md
