@@ -1,7 +1,4 @@
 ## WLAN-ND-000100  
-### Group Title:
-The password configured on the WLAN access point for key generation and client access must be set to a 15-character or longer complex password as required by USCYBERCOM CTO 07-15 Rev1.  
-
 ### Rule Title:
 The password configured on the WLAN access point for key generation and client access must be set to a 15-character or longer complex password as required by USCYBERCOM CTO 07-15 Rev1.  
 
@@ -41,9 +38,6 @@ false
 ---
 
 ## WLAN-ND-000200  
-### Group Title:
-The network device must enforce a minimum 15-character password length.  
-
 ### Rule Title:
 The network device must enforce a minimum 15-character password length.  
 
@@ -79,9 +73,6 @@ false
 ---
 
 ## WLAN-ND-000300   
-### Group Title:
-The network device must not have any default manufacturer passwords when deployed.  
-
 ### Rule Title:
 The network device must not have any default manufacturer passwords when deployed.  
 
@@ -115,9 +106,6 @@ false
 ---
 
 ## WLAN-ND-000400   
-### Group Title:
-The network device must display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.  
-
 ### Rule Title:
 The network device must display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.  
 
@@ -196,9 +184,6 @@ false
 ---
 
 ## WLAN-ND-000500    
-### Group Title:
-The network device must terminate all network connections associated with a device management session at the end of the session, or the session must be terminated after 10 minutes of inactivity except to fulfill documented and validated mission requirements.  
-
 ### Rule Title:
 The network device must terminate all network connections associated with a device management session at the end of the session, or the session must be terminated after 10 minutes of inactivity except to fulfill documented and validated mission requirements.  
 
@@ -235,9 +220,6 @@ false
 ---
 
 ## WLAN-ND-000600   
-### Group Title:
-The network device must be configured to authenticate each administrator prior to authorizing privileges based on assignment of group or role.  
-
 ### Rule Title:
 The network device must be configured to authenticate each administrator prior to authorizing privileges based on assignment of group or role.  
 
@@ -277,9 +259,6 @@ false
 ---
 
 ## WLAN-ND-000700  
-### Group Title:
-The network device must enforce the assigned privilege level for each administrator and authorizations for access to all commands relative to the privilege level in accordance with applicable policy for the device.  
-
 ### Rule Title:
 The network device must enforce the assigned privilege level for each administrator and authorizations for access to all commands relative to the privilege level in accordance with applicable policy for the device.  
 
@@ -318,9 +297,6 @@ false
 ---
 
 ## WLAN-ND-000800  
-### Group Title:
-The network device must be configured to implement cryptographic mechanisms using a FIPS 140-2 approved algorithm to protect the confidentiality of remote maintenance sessions.  
-
 ### Rule Title:
 The network device must be configured to implement cryptographic mechanisms using a FIPS 140-2 approved algorithm to protect the confidentiality of remote maintenance sessions.  
 
@@ -357,9 +333,6 @@ false
 ---
 
 ## WLAN-ND-000900  
-### Group Title:
-The network device must generate audit records when successful/unsuccessful logon attempts occur.  
-
 ### Rule Title:
 The network device must generate audit records when successful/unsuccessful logon attempts occur.  
 
@@ -396,9 +369,6 @@ false
 ---
 
 ## WLAN-ND-001000  
-### Group Title:
-The network device must be running an operating system release that is currently supported by the vendor.  
-
 ### Rule Title:
 The network device must be running an operating system release that is currently supported by the vendor.  
 
@@ -433,9 +403,6 @@ false
 ---
 
 ## WLAN-ND-001100  
-### Group Title:
-The network device must be configured to use an authentication server to authenticate users prior to granting administrative access.  
-
 ### Rule Title:
 The network device must be configured to use an authentication server to authenticate users prior to granting administrative access.  
 
@@ -476,9 +443,6 @@ false
 ---
 
 ## WLAN-ND-001200    
-### Group Title:
-The network device must be configured to authenticate SNMP messages using a FIPS-validated Keyed-Hash Message Authentication Code (HMAC).  
-
 ### Rule Title:
 The network device must be configured to authenticate SNMP messages using a FIPS-validated Keyed-Hash Message Authentication Code (HMAC).  
 
@@ -517,9 +481,6 @@ false
 ---
 
 ## WLAN-ND-001300    
-### Group Title:
-The network device must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.  
-
 ### Rule Title:
 The network device must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.  
 
@@ -561,9 +522,6 @@ false
 ---
 
 ## WLAN-ND-001400    
-### Group Title:
-The network device must be configured to enforce the limit of three consecutive invalid logon attempts, after which time it must block any login attempt for 15 minutes.  
-
 ### Rule Title:
 The network device must be configured to enforce the limit of three consecutive invalid logon attempts, after which time it must block any login attempt for 15 minutes.  
 
@@ -598,9 +556,6 @@ false
 ---
 
 ## WLAN-ND-001500  
-### Group Title:
-The network device must be configured to prohibit the use of all unnecessary and/or nonsecure functions, ports, protocols, and/or services.  
-
 ### Rule Title:
 The network device must be configured to prohibit the use of all unnecessary and/or nonsecure functions, ports, protocols, and/or services.  
 
@@ -639,9 +594,6 @@ false
 ---
 
 ## WLAN-ND-001600  
-### Group Title:
-The network device must authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.  
-
 ### Rule Title:
 The network device must authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.  
 
@@ -674,9 +626,6 @@ false
 ---
 
 ## WLAN-ND-001700   
-### Group Title:
-The network device must implement replay-resistant authentication mechanisms for network access to privileged accounts.  
-
 ### Rule Title:
 The network device must implement replay-resistant authentication mechanisms for network access to privileged accounts.  
 
@@ -713,9 +662,6 @@ false
 ---
 
 ## WLAN-ND-001800   
-### Group Title:
-The network device must be configured with both an ingress and egress ACL.  
-
 ### Rule Title:
 The network device must be configured with both an ingress and egress ACL.  
 
@@ -760,9 +706,6 @@ false
 ---
 
 ## WLAN-ND-001900  
-### Group Title:
-The network device must be configured to synchronize internal information system clocks using redundant authoritative time sources.  
-
 ### Rule Title:
 The network device must be configured to synchronize internal information system clocks using redundant authoritative time sources.  
 
