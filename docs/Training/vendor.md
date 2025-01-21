@@ -2,7 +2,7 @@ Security vendor blogs offer numerous benefits to individuals and organizations s
 
 ### Vendor Security Blogs  
 * Mandiant Blog  
-[Mandiant Blog](https://www.mandiant.com/resources/blog)  
+[Mandiant Blog](https://cloud.google.com/blog/topics/threat-intelligence/)  
 * PaloAlto Network Threat Blog  
 [PaloAlto Networks Threat Blog](https://unit42.paloaltonetworks.com/)  
 * Security teams need an ally to help defend against adversaries. Check out our blog for breaking research and insights into [threat detection](https://redcanary.com/topic/threat-detection/), [intelligence](https://redcanary.com/topic/threat-intelligence/), and [incident response](https://redcanary.com/topic/incident-response/).  
@@ -10,7 +10,7 @@ Security vendor blogs offer numerous benefits to individuals and organizations s
 * CheckPoint Blog  
 [CheckPoint Blog](https://blog.checkpoint.com/)  
 * AT&T Cybersecurity Blog  
-[AT&T Security Blog](https://cybersecurity.att.com/blogs)  
+[LevelBlue Security Blog](https://levelblue.com/blogs)  
 * Active Directory & Enterprise Security, Methods to Secure Active Directory, Attack Methods & Effective Defenses, PowerShell, Tech Notes, & Geek Trivia.  
 [Active Directory security and exploitation](http://adsecurity.org/)  
 * Posts from SpecterOps team members on various topics relating information security.  
