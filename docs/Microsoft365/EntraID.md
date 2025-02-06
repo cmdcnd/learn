@@ -1,5 +1,12 @@
+### Microsoft 365 Set up Synchronizing Between Tenants  
+---
+
+#### [Create Multi-Tenant Organization](#setup-multi-tenant-organization)  
+#### [Add New Tenant](#add-new-tenant-to-multi-tenant-organization)  
+
+
 ### Register YubiKey Devices (admin’s part)  
------------------------------------  
+---  
 
 1.  Sign in to [Microsoft Entra Admin Center](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods/fromNav/)  
 
@@ -19,8 +26,8 @@
 5.  Finally, click Save at the bottom of the window to apply your changes.  
 
 
-## YubiKey configuration in Microsoft 365 (user’s part)  
------------------------  
+### YubiKey configuration in Microsoft 365 (user’s part)  
+---  
 
 You must create your security key and give it a unique PIN before you can sign in to your work or school account using the key. You may have up to 10 keys registered with your account.  
 
@@ -69,5 +76,7 @@ You must create your security key and give it a unique PIN before you can sign i
     ![Security info page, with all registered methods shown](../images/Microsoft365-Azure-SecurityInfo.png)  
 
 ### References  
-[How to deploy YubiKey in Microsoft 365](https://www.codetwo.com/admins-blog/yubikey-setup-microsoft-365)  
-[Setup Security Key as Validation](https://support.microsoft.com/en-us/account-billing/set-up-a-security-key-as-your-verification-method-2911cacd-efa5-4593-ae22-e09ae14c6698)  
+#### [Setup Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#set-up-a-new-multitenant-organization)  
+#### [Add New Tenant to Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#add-a-tenant-to-your-multitenant-organization)  
+#### [How to deploy YubiKey in Microsoft 365](https://www.codetwo.com/admins-blog/yubikey-setup-microsoft-365)  
+#### [Setup Security Key as Validation](https://support.microsoft.com/en-us/account-billing/set-up-a-security-key-as-your-verification-method-2911cacd-efa5-4593-ae22-e09ae14c6698)  
