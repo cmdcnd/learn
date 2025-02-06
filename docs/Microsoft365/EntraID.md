@@ -16,13 +16,13 @@
 
 3.  On the **Enable and Target** tab, set the switch to **Enable** and choose the users who will be able to register and use security keys. You can select **All users** or add specific groups. By clicking the **Exclude** tab, you can choose the groups whose members won’t be able to use a YubiKey.
 4.  The Configure tab offers more advanced options:  
-    * Allow self-service set up – lets a user register a key through the MySecurityInfo portal by themselves. Enabling this option is required if you want to allow your users to register YubiKey devices.  
-    * Enforce attestation – when set to Yes, lets you additionally verify a security key for metadata using the FIDO Alliance Metadata Service and additional tests by Microsoft.  
-    * Enforce key restrictions – when set to Yes, your users will be able to register only those keys that have a specific Authenticator Attestation GUID (AAGUID). You can also block the use of keys with a specific AAGUID.  
-    	* [YubiKey AAGUID](https://support.yubico.com/hc/en-us/articles/360016648959-YubiKey-Hardware-FIDO2-AAGUIDs)		
-			* [FIDO2 security keys eligible](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-hardware-vendor#fido2-security-keys-eligible-for-attestation-with-microsoft-entra-id)  
+	* Allow self-service set up – lets a user register a key through the MySecurityInfo portal by themselves. Enabling this option is required if you want to allow your users to register YubiKey devices.  
+	* Enforce attestation – when set to Yes, lets you additionally verify a security key for metadata using the FIDO Alliance Metadata Service and additional tests by Microsoft.  
+	* Enforce key restrictions – when set to Yes, your users will be able to register only those keys that have a specific Authenticator Attestation GUID (AAGUID). You can also block the use of keys with a specific AAGUID.  
+		* [YubiKey AAGUID](https://support.yubico.com/hc/en-us/articles/360016648959-YubiKey-Hardware-FIDO2-AAGUIDs)  
+		* [FIDO2 security keys eligible](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-hardware-vendor#fido2-security-keys-eligible-for-attestation-with-microsoft-entra-id)  
 
-    ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)  
+  ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)  
 
 5.  Finally, click Save at the bottom of the window to apply your changes.  
 
@@ -41,16 +41,16 @@ You must create your security key and give it a unique PIN before you can sign i
 
 4.  Make sure that you have your security key physically available, and then on the **Security key** page, select **Next**.  
 5.  In the **Setting up your new sign-in method** page, select **Next**, and then:  
-    *	If your security key is a USB device, insert your security key into the USB port of your device.  
-    * If your security key is an NFC device, tap your security key to your reader.  
+	* If your security key is a USB device, insert your security key into the USB port of your device.  
+	* If your security key is an NFC device, tap your security key to your reader.  
         
     
-6.  If you're using Chrome or Edge, the browser might prioritize registration of a passkey that's stored on a mobile device over a passkey that's stored on a security key.    
-    *	Beginning with Windows 11 version 23H2, you can sign in with your work or school account and click **Next**. Below **More choices**, choose **Security key** and click **Next**.  
-      ![Screenshot of how to save a security key on Windows 11.](../images/Microsoft365-Azure-StorePasskey.png)  
-
-    * On earlier versions of Windows, the browser may show the QR pairing screen to register a passkey that's stored on another mobile device. To register a passkey that's stored on a security key instead, insert your security key and touch it to continue.  
-      ![Screenshot of how to save a security key on Windows 10.](../images/Microsoft365-Azure-StorePasskeyQRCode.png)  
+6.  If you're using Chrome or Edge, the browser might prioritize registration of a passkey that's stored on a mobile device over a passkey that's stored on a security key.  
+	* Beginning with Windows 11 version 23H2, you can sign in with your work or school account and click **Next**. Below **More choices**, choose **Security key** and click **Next**.  
+    ![Screenshot of how to save a security key on Windows 11.](../images/Microsoft365-Azure-StorePasskey.png)  
+		
+	* On earlier versions of Windows, the browser may show the QR pairing screen to register a passkey that's stored on another mobile device. To register a passkey that's stored on a security key instead, insert your security key and touch it to continue.  
+    ![Screenshot of how to save a security key on Windows 10.](../images/Microsoft365-Azure-StorePasskeyQRCode.png)  
         
 7.  Type your unique security key PIN into the Windows security box, and then select **OK**. You'll return to the **Setting up your new sign-in method** box.  
 8.  Select **Next**.  
