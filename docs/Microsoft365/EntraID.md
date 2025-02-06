@@ -23,7 +23,6 @@
 		* [FIDO2 security keys eligible](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-hardware-vendor#fido2-security-keys-eligible-for-attestation-with-microsoft-entra-id)  
 
   ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)  
-
 5.  Finally, click Save at the bottom of the window to apply your changes.  
 
 
