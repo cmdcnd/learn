@@ -19,10 +19,10 @@
     * Allow self-service set up – lets a user register a key through the MySecurityInfo portal by themselves. Enabling this option is required if you want to allow your users to register YubiKey devices.  
     * Enforce attestation – when set to Yes, lets you additionally verify a security key for metadata using the FIDO Alliance Metadata Service and additional tests by Microsoft.  
     * Enforce key restrictions – when set to Yes, your users will be able to register only those keys that have a specific Authenticator Attestation GUID (AAGUID). You can also block the use of keys with a specific AAGUID.  
-    	* [YubiKey AAGUID](https://support.yubico.com/hc/en-us/articles/360016648959-YubiKey-Hardware-FIDO2-AAGUIDs)  
-      * [FIDO2 security keys eligible](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-hardware-vendor#fido2-security-keys-eligible-for-attestation-with-microsoft-entra-id)  
+    	* [YubiKey AAGUID](https://support.yubico.com/hc/en-us/articles/360016648959-YubiKey-Hardware-FIDO2-AAGUIDs)		
+			* [FIDO2 security keys eligible](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-hardware-vendor#fido2-security-keys-eligible-for-attestation-with-microsoft-entra-id)  
 
-    ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)     
+    ![Admin Policy Configuration](../images/Microsoft365-Azure-AdminPolicyConfigure.png)  
 
 5.  Finally, click Save at the bottom of the window to apply your changes.  
 
