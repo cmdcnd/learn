@@ -1,8 +1,10 @@
 ### Microsoft 365 Set up Synchronizing Between Tenants  
 ---
 
-#### [Create Multi-Tenant Organization](#setup-multi-tenant-organization)  
-#### [Add New Tenant](#add-new-tenant-to-multi-tenant-organization)  
+* [Step 1 Setup Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#set-up-a-new-multitenant-organization)  
+* [Step 2 Add New Tenant to Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#add-a-tenant-to-your-multitenant-organization)  
+* [Step 3 Sync Users Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/sync-users-multi-tenant-orgs?view=o365-worldwide) 
+
 
 
 ### Register YubiKey Devices (admin’s part)  
@@ -76,7 +78,6 @@ You must create your security key and give it a unique PIN before you can sign i
     ![Security info page, with all registered methods shown](../images/Microsoft365-Azure-SecurityInfo.png)  
 
 ### References  
-#### [Setup Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#set-up-a-new-multitenant-organization)  
-#### [Add New Tenant to Multi-Tenant Organization](https://learn.microsoft.com/en-us/microsoft-365/enterprise/set-up-multi-tenant-org?view=o365-worldwide#add-a-tenant-to-your-multitenant-organization)  
+#### [Inter Tenant Collaboration](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-inter-tenant-collaboration?view=o365-worldwide)   
 #### [How to deploy YubiKey in Microsoft 365](https://www.codetwo.com/admins-blog/yubikey-setup-microsoft-365)  
 #### [Setup Security Key as Validation](https://support.microsoft.com/en-us/account-billing/set-up-a-security-key-as-your-verification-method-2911cacd-efa5-4593-ae22-e09ae14c6698)  
