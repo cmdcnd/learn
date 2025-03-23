@@ -1,37 +1,37 @@
 ## Resumes  
 To write an effective resume, tailor it to each job, highlight achievements with quantifiable results, use action verbs, and ensure it's clear, concise, and error-free with professional formatting.  There is no one right way to format a resume, just make it organized and well laid out.  Try not to go past 2 pages.  
 
-1. Tailor Your Resume:  
-- Research the job description: Carefully analyze the job posting and identify the required skills, experience, and keywords.  
-- Customize your resume: Highlight the skills and experience that are most relevant to the specific position you're applying for.  
-- Use keywords: Incorporate keywords from the job description throughout your resume to help it pass through automated systems.  
+- Tailor Your Resume:  
+    - Research the job description: Carefully analyze the job posting and identify the required skills, experience, and keywords.  
+    - Customize your resume: Highlight the skills and experience that are most relevant to the specific position you're applying for.  
+    - Use keywords: Incorporate keywords from the job description throughout your resume to help it pass through automated systems.  
 
-2. Highlight Achievements and Quantify Results:  
-- Focus on accomplishments: Instead of simply listing job responsibilities, focus on the results you achieved and the impact you made.  
-- Use action verbs: Start your bullet points with strong action verbs that showcase your accomplishments.  
-- Quantify your achievements: Use numbers and data to demonstrate the impact of your work.  
+- Highlight Achievements and Quantify Results:  
+    - Focus on accomplishments: Instead of simply listing job responsibilities, focus on the results you achieved and the impact you made.  
+    - Use action verbs: Start your bullet points with strong action verbs that showcase your accomplishments.  
+    - Quantify your achievements: Use numbers and data to demonstrate the impact of your work.  
 
-3. Format for Readability and Impact:   
-- Use a professional font: Choose a clean, easy-to-read font like Arial, Calibri, or Times New Roman.  
-- Maintain consistent formatting: Use bullet points, headings, and subheadings to organize your resume and make it easy to scan.  
-- Keep it concise: Aim for a one-page resume, especially for entry-level or early-career positions.  
-- Proofread carefully: Check for any spelling or grammatical errors before submitting your resume.   
-- Use appropriate margins: One-inch margins on all sides are generally recommended.  
+- Format for Readability and Impact:   
+    - Use a professional font: Choose a clean, easy-to-read font like Arial, Calibri, or Times New Roman.  
+    - Maintain consistent formatting: Use bullet points, headings, and subheadings to organize your resume and make it easy to scan.  
+    - Keep it concise: Aim for a one-page resume, especially for entry-level or early-career positions.  
+    - Proofread carefully: Check for any spelling or grammatical errors before submitting your resume.   
+    - Use appropriate margins: One-inch margins on all sides are generally recommended.  
 
-4. Content and Structure:  
-- Contact Information: Include your full name, phone number, email address, and LinkedIn profile URL (optional).  
-- Summary/Objective (Optional): Consider including a brief summary or objective statement that highlights your key skills and career goals.  
-- Work Experience: List your work experience in reverse chronological order, starting with your most recent position.  
-- Skills: Include a dedicated section for your skills, both hard and soft skills, that are relevant to the job you're applying for.  
-- Education: List your educational background, including degrees, certifications, and relevant coursework.  
-- Projects/Volunteer Experience (Optional): If relevant, include any personal projects or volunteer experience that showcase your skills and experience.  
+- Content and Structure:  
+    - Contact Information: Include your full name, phone number, email address, and LinkedIn profile URL (optional).  
+    - Summary/Objective (Optional): Consider including a brief summary or objective statement that highlights your key skills and career goals.  
+    - Work Experience: List your work experience in reverse chronological order, starting with your most recent position.  
+    - Skills: Include a dedicated section for your skills, both hard and soft skills, that are relevant to the job you're applying for.  
+    - Education: List your educational background, including degrees, certifications, and relevant coursework.  
+    - Projects/Volunteer Experience (Optional): If relevant, include any personal projects or volunteer experience that showcase your skills and experience.  
 
-5. Additional Tips:  
-- Review resume examples: Look at examples of resumes in your industry to get inspiration and see what works well.   
-- Use a resume template: Consider using a resume template to help you structure your resume and ensure it looks professional.  
-- Get feedback: Ask a friend, family member, or career counselor to review your resume and provide feedback.  
-- Don't lie or exaggerate: Be honest and accurate in your resume.  
-- Don't include unnecessary personal information: Focus on your skills and experience, not your hobbies or interests.  
+- Additional Tips:  
+    - Review resume examples: Look at examples of resumes in your industry to get inspiration and see what works well.   
+    - Use a resume template: Consider using a resume template to help you structure your resume and ensure it looks professional.  
+    - Get feedback: Ask a friend, family member, or career counselor to review your resume and provide feedback.  
+    - Don't lie or exaggerate: Be honest and accurate in your resume.  
+    - Don't include unnecessary personal information: Focus on your skills and experience, not your hobbies or interests.  
 
 ## Job Interviews  
 This is probably the hardest part of searcing for a job, but there are some tips you can do to make the process a bit easier.  Most interviews are going to have some common questions that you should have memorized with pre-canned answers.  Generally for Governement interviews, you are asked a question and the interviewers are not allowed to ask follow up questions or provide any further guidance, aside from maybe repeating the question.  The key is to try and answer succinctly, but provide enough detail to show you understand the topic.  If you're unsure about a question or lack in-depth knowledge of the topic, provide a concise response. Avoid over-explaining or using filler to compensate.  It is also ok to say you don't have any experience.  
