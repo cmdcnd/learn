@@ -31,10 +31,15 @@ This is probably the hardest part of searcing for a job, but there are some tips
 
 ### Behavioral/Problem Solving Questions  
 - Give me an example of a difficult problem you solved.  
+    - precanned answer about a specific event.  
 - Tell me about a time when you had to learn a new technology quickly.  
+    - precanned answer about a specific event.  
 - Describe a situation where you had a conflict with a teammate or coworker. How did you resolve it?  
+    - precanned answer about a specific event.  
 - Have you ever made a mistake at work? How did you handle it?  
+    - precanned answer about a specific event.  
 - Tell me about a project you’re most proud of.  
+    - precanned answer about a specific event.  
 
 ### Technical/Knowledge-Based Questions  
 - What are the steps you take when troubleshooting an outage?  
