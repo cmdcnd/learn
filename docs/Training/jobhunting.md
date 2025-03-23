@@ -31,7 +31,6 @@ To write an effective resume, tailor it to each job, highlight achievements with
     - Use a resume template: Consider using a resume template to help you structure your resume and ensure it looks professional.  
     - Get feedback: Ask a friend, family member, or career counselor to review your resume and provide feedback.  
     - Don't lie or exaggerate: Be honest and accurate in your resume.  
-    - Don't include unnecessary personal information: Focus on your skills and experience, not your hobbies or interests.  
 
 ## Job Interviews  
 This is probably the hardest part of searcing for a job, but there are some tips you can do to make the process a bit easier.  Most interviews are going to have some common questions that you should have memorized with pre-canned answers.  Generally for Governement interviews, you are asked a question and the interviewers are not allowed to ask follow up questions or provide any further guidance, aside from maybe repeating the question.  The key is to try and answer succinctly, but provide enough detail to show you understand the topic.  If you're unsure about a question or lack in-depth knowledge of the topic, provide a concise response. Avoid over-explaining or using filler to compensate.  It is also ok to say you don't have any experience.  
