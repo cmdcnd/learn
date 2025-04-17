@@ -1,4 +1,5 @@
-## Updated 3 May 2022
+
+## Updated 17 April 2025
 #### Tennable.IO Scanning via SCCM or ManageEngine. (Anything an agency uses to push out software or powershell commands)
 
 1.  Navigate to https://www.tenable.com/downloads/nessus-agents?loginAttempted=true and download the
@@ -11,26 +12,26 @@
 
 4.  Click on the ellipsis in the upper left hand corner and click settings
 
-![](../../../images/tennableIo%20settings.PNG)
+![](cmdcnd/learn/docs/images/tennableIo%20settings.PNG)
 
 5.  Select Sensors
 
-![](../../../images/TennableIO_Sensors.PNG)
+![](cmdcnd/learn/docs/images/TennableIO_Sensors.PNG)
 
 6.  Select Nessus Agents on the left and then click Add Nessus Agent
-![](../../../images/addagent.png)
+![](cmdcnd/learn/docs/images/addagent.png)
 
 
 7.  This is where you obtain the agent key. Copy this key, you will be using it in step 12.
 
-![](../../../images/TennableIO_Agent_key.PNG)
+![](cmdcnd/learn/docs/images/TennableIO_Agent_key.PNG)
 
 8.  Create Agent group
-![](../../../images/8SS.PNG)
+![](cmdcnd/learn/docs/images/8SS.PNG)
 
 
 9.  Add the Agency name for the group name.
-![](../../../images/9SS.PNG)
+![](cmdcnd/learn/docs/images/9SS.PNG)
 
 
 10. Use the above key (In step \#7) in the following powershell script.
@@ -62,24 +63,24 @@ exit
     ```
     .\\nessuscli.exe agent status
     ```
-![](../../../images/verify.png)
+![](cmdcnd/learn/docs/images/verify.png)
 
 15. Verify that the number of Linked agents is close to the expected
     asset count.
 
-![](../../../images/15Screenshot.png)
+![](cmdcnd/learn/docs/images/15Screenshot.png)
 
 16. Once you have reached the expected asset count, select all of the checked in hosts and assign to Agency agent group that was created in Step 8.
 
 17. Create a scan for the group. Navigate to the ellipsis > Scans
 
-![](../../../images/Nessus_create_scan.png)
+![](cmdcnd/learn/docs/images/Nessus_create_scan.png)
 
 18. Click on "create scan"
-![](../../../images/CreateNewScan.png)
+![](cmdcnd/learn/docs/images/CreateNewScan.png)
 
 19. Select User Defined and click on TEMPLATE_RA_AgentScans
-![](../../../images/tenableUserDefinedScan.png)
+![](cmdcnd/learn/docs/images/tenableUserDefinedScan.png)
 
 20. Name your scan the name of the agency and FY.(agency_22-23)
  Select your agent group from the drop down and set your duration of the scan to 1 day.
@@ -87,31 +88,32 @@ exit
 21. Save and launch the scan. Scan will be complete at the end of the scan duration.
 
 22. When the scan is complete export to .Nessus file.
-![](../../../images/exportnessus.png)
+![](cmdcnd/learn/docs/images/exportnessus.png)
 
 23. Upload results to Nessus and create repository
 
 24. Creating an Agent based repository, navigate to Tenable ISA
     (Repository Admin) and click Repositories and then click add
 
-![](../../../images/17ss.PNG)
+![](cmdcnd/learn/docs/images/17ss.PNG)
 
 25. Choose Agent
-![](../../../images/18SS.PNG)
+![](cmdcnd/learn/docs/images/18SS.PNG)
 
 
 26. Enter agency name and turn off Generate Trend Data and press
     submit
 
-![](../../../images/19SS.PNG)
+![](cmdcnd/learn/docs/images/19SS.PNG)
 
 27. Open lastpass and navigate to Tenable ISA (Analyst site)
 
 28. Upload .Nessus file to Scans > Scan Results
-![](../../../images/uploadscans.png)
+![](cmdcnd/learn/docs/images/uploadscans.png)
 
 29. Upload results by clicking "Upload Scan Results", select your .nessus file and upload to the agency repository that was created in step 23.
-![](../../../images/uploadresults.png)
-![](../../../images/uploadsettings.png)
+![](cmdcnd/learn/docs/images/uploadresults.png)
+![](cmdcnd/learn/docs/images/uploadsettings.png)
 
 30. Congratulations, hopefully success. Run your reports normally.
+
