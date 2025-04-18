@@ -166,6 +166,7 @@ nav:
     - Vendor Blogs/Repos: Training/vendor.md
   - Security Assessment:
     - Assessment/Security-Assessment.md
+    - Tools/README.md
   - VMware: VMware/README.md
   - Wireless:
     - WLAN MGMT: Wireless/README.md
