@@ -11,4 +11,4 @@
  ```
 .\\nessuscli.exe agent status
 ```  
-![](learn/docs/images/verify.png)
+![Tenable](../../../images/verify.png)
