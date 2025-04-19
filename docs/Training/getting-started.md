@@ -28,6 +28,3 @@
 ### Linux Foundation  
 #### [Introduction to Linux (LFS101x)](https://training.linuxfoundation.org/training/introduction-to-linux/)  
 
-### Attack Defense  
-#### [Windows Security](https://attackdefense.com/listing?labtype=windows-recon&subtype=windows-exploitation-basics-getting-started)  
-#### [Linux Security](https://attackdefense.com/listing?labtype=linux-security-linux-basics&subtype=linux-security-linux-basics-getting-started)  
