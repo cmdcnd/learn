@@ -1,7 +1,7 @@
 ## Tenable Agent Deployment for Tenable.IO Scanning  
 #### Deployment  
 
-1.  Navigate to https://www.tenable.com/downloads/nessus-agents and download the appropriate agent for the entity's environment. (x64)  
+1.  Navigate to https://www.tenable.com/downloads/nessus-agents and download the appropriate agent for your environment.
 
 2.  Push the agent to all target devices (Often workstations and laptops).  
 
