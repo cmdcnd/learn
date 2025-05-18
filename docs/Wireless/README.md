@@ -1,3 +1,71 @@
+# Microsoft NPS with Meraki Wireless for Domain-Joined Computers
+
+## **1️⃣ Setup Certificate Services and Auto-Enrollment:**
+1. Install **Active Directory Certificate Services (AD CS)** on your Windows Server.
+2. Configure it as an **Enterprise CA** and enable **Certificate Templates**.
+3. Use the **Computer template** for issuing certificates.
+   - Open the **Certification Authority** MMC → Right-click **Certificate Templates** → **Manage**.
+   - Duplicate the **Computer** template → Name it (e.g., "Domain Computer Wireless").
+   - Go to the **Security** tab:
+     - Allow **Domain Computers** to **Enroll** and **Auto-enroll**.
+4. Publish the template:
+   - Right-click **Certificate Templates** → **New** → **Certificate Template to Issue** → Select your newly created template.
+
+5. Configure **Group Policy** for auto-enrollment:
+   - Go to **Group Policy Management** → Create a new GPO or edit an existing one.
+   - Navigate to:
+     ```
+     Computer Configuration → Policies → Windows Settings → Security Settings → Public Key Policies → Certificate Services Client – Auto-Enroll
+     ```
+   - Enable **Configuration Model: Enabled** and check:
+     - Renew expired certificates, update pending certificates, and remove revoked certificates.
+     - Update certificates that use certificate templates.
+
+---
+
+## **2️⃣ Configure NPS for Certificate-Based Authentication:**
+1. Open **NPS Console** → **RADIUS Clients and Servers** → Add your Meraki AP as a **RADIUS Client**.
+2. Go to **Policies** → **Network Policies** → Create a new policy.
+3. Define the **Conditions**:
+   - **NAS Port Type** → Select **Wireless - IEEE 802.11**.
+   - **Windows Groups** → Add **Domain Computers**.
+4. **Constraints**:
+   - Select **Authentication Methods** → **Smart Card or other certificate**.
+   - Click **Configure** → **EAP Types** → **Add** → **Microsoft: Smart Card or other certificate**.
+5. Under **Settings** → **Encryption**:
+   - Ensure **Strongest encryption** options are selected (AES, SHA256).
+
+---
+
+## **3️⃣ Configure Meraki Wireless for RADIUS Authentication:**
+1. Log in to the **Meraki Dashboard** → **Wireless** → **Access Control**.
+2. Under **SSID** settings, choose **Enterprise with RADIUS**.
+3. Add your NPS server as the **RADIUS Server**:
+   - **RADIUS IP**: `<NPS Server IP>`
+   - **Port**: `1812` (default)
+   - **Shared Secret**: `<Configured in NPS>`
+4. Enable **802.1X Authentication** → Choose **PEAP (MS-CHAP v2)**.
+5. Ensure **WPA2-Enterprise** is selected.
+
+---
+
+## **4️⃣ Validate Certificate-based Authentication:**
+1. On a domain-joined computer, open **MMC** → **Certificates** → **Computer Account** → **Personal** → **Certificates**.
+2. Ensure the **Domain Computer Wireless** certificate is present and valid.
+3. Attempt to connect to the Meraki SSID.
+4. The NPS server will validate:
+   - The client is domain-joined (part of **Domain Computers** group).
+   - The certificate is signed by the AD CS.
+   - The client is authorized through NPS policies.
+
+---
+
+## **5️⃣ Optional Security Hardening:**
+1. Restrict NPS policy to specific **OU**s if necessary.
+2. Use **Certificate Revocation Lists (CRL)** to prevent compromised machines from authenticating.
+3. Enforce **Group Policy** to only allow **domain-certified networks**.
+
+
 ## Guide to Securing Enterprise Wireless Access Points  
 Securing enterprise wireless access points (APs) is essential for protecting network resources and sensitive data. Below is a step-by-step guide with references to industry best practices.  
 
