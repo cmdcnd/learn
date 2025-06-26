@@ -59,6 +59,7 @@ You must create your security key and give it a unique PIN before you can sign i
 10.	Select **Done** to close the **Security key** page. The **Security info** page is updated with your security key information.  
     ![Security info page, with all registered methods shown](../images/Microsoft365-Azure-SecurityInfo.png)  
 
+
 ### References  
 #### [Inter Tenant Collaboration](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-inter-tenant-collaboration?view=o365-worldwide)   
 #### [How to deploy YubiKey in Microsoft 365](https://www.codetwo.com/admins-blog/yubikey-setup-microsoft-365)  

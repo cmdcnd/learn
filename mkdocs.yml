@@ -149,7 +149,9 @@ nav:
       - Email Authentication: Microsoft365/ExchangeOnline/EmailAuthentication.md
     - Intune: Microsoft365/Intune.md
     - Intune Policies: Microsoft365/IntunePolices/README.md
-    - Entra ID: Microsoft365/EntraID.md
+    - Entra ID: 
+      - EntraID MFA Policies: Microsoft365/EntraID/EntraID.md
+      - EntraID Conditional Access Policies: Microsoft365/EntraID/ConditionalAccessPolicies.md
   - Training:
     - Training/getting-started.md
     - Coding: Training/coding.md
