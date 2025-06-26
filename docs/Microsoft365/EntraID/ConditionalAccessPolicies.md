@@ -36,6 +36,5 @@ Session controls enable limited experience within a cloud app.
 ![Session](../../images/M365-EntraID_ConditionalAccess-Session.png)  
 
 
-
-### Access Controls  
-#### Grant  
+## References  
+[Microsoft Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/)  
