@@ -38,3 +38,4 @@ Session controls enable limited experience within a cloud app.
 
 ## References  
 [Microsoft Conditional Access Policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/)  
+[Microsoft Conditiaonl Access Policy Examples](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation)  
