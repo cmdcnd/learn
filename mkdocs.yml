@@ -2,13 +2,10 @@ site_name: Technical Documentation
 site_url: https://learn.cnd.ca.gov
 repo_url: https://github.com/cmdcnd/learn
 edit_uri: edit/main/docs/
-theme:
-  name: material
 
 # Configuration
 theme:
   name: material
-  custom_dir: src/.overrides
   features:
     # - announce.dismiss
     - content.action.edit
