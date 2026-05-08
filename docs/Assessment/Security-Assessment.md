@@ -5,7 +5,7 @@ This task identifies the entity’s risk exposure to publicly available identity
 * Tools that can be used for this task.  
 [SimplyEmail](https://github.com/SimplySecurity/SimplyEmail) - not currently supported tool.  
 [FOCA](https://github.com/ElevenPaths/FOCA)  
-[theHarvester](https://github.com/laramies/theHarvester) - built-in to Kali.  
+[theHarvester](https://github.com/laramies/theHarvester) - built-in to Kali.
 
 
 #### PENETRATION TEST EXTERNAL SPEAR PHISHING ATTEMPT  
@@ -19,7 +19,8 @@ This task simulates a threat actor’s ability to derive logon credentials while
 
 * Tools that can be used for this task.  
 [Spray365](https://github.com/MarkoH17/Spray365)  
-[GoMapEnum](https://github.com/nodauf/GoMapEnum)  
+[GoMapEnum](https://github.com/nodauf/GoMapEnum)
+[TrevorSpray](https://github.com/blacklanternsecurity/TREVORspray)  
 
 #### PENETRATION TEST EXTERNAL UNDECLARED HOSTS/NETWORKS  
 This task simulates a threat actor’s attempt to gather information about the victim's networks as part of their pre-attack, targeting phase [MITRE ATT&CK ID: T1590](https://attack.mitre.org/techniques/T1590/).  To validate the entity’s knowledge and documentation of allocation assets/networks, a comparison of network exposures in the pre-attack phase is compared to the entity Data Call provided prior to assessment start date.  
