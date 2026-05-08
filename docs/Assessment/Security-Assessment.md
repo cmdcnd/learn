@@ -19,7 +19,7 @@ This task simulates a threat actor’s ability to derive logon credentials while
 
 * Tools that can be used for this task.  
 [Spray365](https://github.com/MarkoH17/Spray365)  
-[GoMapEnum](https://github.com/nodauf/GoMapEnum)
+[GoMapEnum](https://github.com/nodauf/GoMapEnum)  
 [TrevorSpray](https://github.com/blacklanternsecurity/TREVORspray)  
 
 #### PENETRATION TEST EXTERNAL UNDECLARED HOSTS/NETWORKS  
