@@ -46,7 +46,7 @@ jobs:
 
       - name: Upload build warnings (optional diagnostic)
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: zensical-warnings
           path: build-warnings.txt
