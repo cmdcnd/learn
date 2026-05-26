@@ -7,7 +7,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # required for pushing to gh-pages
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: docsbuild-${{ github.ref }}
@@ -15,8 +17,14 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
@@ -42,7 +50,7 @@ jobs:
 
       - name: Build Zensical site
         run: |
-          zensical build 2> build-warnings.txt || true
+          zensical build --clean 2> build-warnings.txt || true
 
       - name: Upload build warnings (optional diagnostic)
         if: always()
@@ -51,9 +59,11 @@ jobs:
           name: zensical-warnings
           path: build-warnings.txt
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          publish_branch: gh-pages
+          path: site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v5
+        id: deployment
