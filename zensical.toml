@@ -1,0 +1,167 @@
+[project]
+site_name = "Technical Documentation"
+site_url = "https://learn.cnd.ca.gov"
+repo_url = "https://github.com/cmdcnd/learn"
+edit_uri = "edit/main/docs/"
+nav = [
+  {"Apple" = [
+    {"iPhone" = "Apple/iPhone.md"}
+  ]},
+
+  {"Microsoft" = [
+    {"Microsoft" = "Microsoft/index.md"},
+    {"Naming Convention" = "Microsoft/NamingConvention/README.md"},
+    {"Naming Convention Working Documents" = "https://github.com/cmdcnd/learn/tree/main/docs/files"},
+    {"Group Policy" = [
+      {"Client GPOs" = [
+        {"Client GPOs" = "Microsoft/GroupPolicy/client/index.md"},
+        {"Computer Security" = "Microsoft/GroupPolicy/client/Computer-Security/README.md"},
+        {"Computer Application Security" = "Microsoft/GroupPolicy/client/Computer-Application-Security/README.md"},
+        {"User Security" = "Microsoft/GroupPolicy/client/User-Security/README.md"},
+        {"User Application Security" = "Microsoft/GroupPolicy/client/User-Application-Security/README.md"}
+      ]},
+      {"Server GPOs" = [
+        {"Server GPOs" = "Microsoft/GroupPolicy/server/README.md"}
+      ]},
+      {"Domain Controller GPOs" = [
+        {"Domain Controller GPOs" = "Microsoft/GroupPolicy/domaincontroller/README.md"}
+      ]}
+    ]}
+  ]},
+
+  {"Microsoft365" = [
+    {"Microsoft365" = "Microsoft365/index.md"},
+    {"Exchange Online" = [
+      {"Email Authentication" = "Microsoft365/ExchangeOnline/EmailAuthentication.md"}
+    ]},
+    {"Intune" = "Microsoft365/Intune.md"},
+    {"Intune Policies" = "Microsoft365/IntunePolices/README.md"},
+    {"Entra ID" = [
+      {"EntraID Conditional Access Policies" = "Microsoft365/EntraID/ConditionalAccessPolicies.md"},
+      {"EntraID MFA Policies" = "Microsoft365/EntraID/MFA.md"}
+    ]}
+  ]},
+
+  {"Training" = [
+    {"Getting Started" = "Training/getting-started.md"},
+    {"Coding" = "Training/coding.md"},
+    {"CTF" = "Training/ctf.md"},
+    {"DoD" = "Training/dod.md"},
+    {"EDR" = "Training/edr.md"},
+    {"Job Hunting" = "Training/jobhunting.md"},
+    {"Linux" = "Training/linux.md"},
+    {"Microsoft" = "Training/microsoft.md"},
+    {"Network" = "Training/network.md"},
+    {"Offense" = "Training/offense.md"},
+    {"Random" = "Training/random.md"},
+    {"Threat Hunting" = "Training/threathunting.md"},
+    {"Vendor Blogs/Repos" = "Training/vendor.md"}
+  ]},
+
+  {"Security Assessment" = [
+    {"Security Assessment" = "Assessment/Security-Assessment.md"}
+  ]},
+
+  {"VMware" = "VMware/README.md"},
+
+  {"Wireless" = [
+    {"WLAN MGMT" = "Wireless/README.md"}
+  ]},
+]
+
+[project.theme]
+variant = "classic"
+logo = "images/CND_LogoTop.jpg"
+favicon = "assets/favicon.png"
+features = [
+  "content.action.edit",
+  "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "search.share",
+  "search.suggest",
+  "toc.follow",
+]
+font.text = "Roboto"
+font.code = "Roboto Mono"
+
+[project.theme.icon]
+logo = "material/library-outline"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to light mode"
+
+[project.plugins.search]
+separator = '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+[project.plugins."table-reader"]
+
+[project.extra.analytics]
+provider = "google"
+property = "__GOOGLE_ANALYTICS_KEY__"
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+
+[project.markdown_extensions.pymdownx.magiclink]
+repo_url_shorthand = true
+user = "cmdcnd"
+repo = "learn"
+
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [{ name = "mermaid", class = "mermaid" }]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+[project.markdown_extensions.pymdownx.tilde]
