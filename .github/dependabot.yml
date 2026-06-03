@@ -13,7 +13,7 @@ updates:
       include: "scope"
 
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/" # keep only if requirements.txt exists at repo root
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
