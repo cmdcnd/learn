@@ -11,15 +11,3 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-
-  - package-ecosystem: "pip"
-    directory: "/" # keep only if requirements.txt exists at repo root
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-      - "python"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
