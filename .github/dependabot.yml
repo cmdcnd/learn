@@ -4,6 +4,12 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    assignees:
+      - "drichmond-cnd"
+      - "azamora-cnd"
+    reviewers:
+      - "drichmond-cnd"
+      - "azamora-cnd"
     open-pull-requests-limit: 10
     rebase-strategy: "auto"  # Auto-rebase when base branch changes
     labels:
@@ -17,3 +23,30 @@ updates:
       github-actions:
         patterns:
           - "*"
+
+  - package-ecosystem: "pip"
+    directory: "/"  # keep only if requirements.txt exists at repo root
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "drichmond-cnd"
+      - "azamora-cnd"
+    reviewers:
+      - "drichmond-cnd"
+      - "azamora-cnd"
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"  # Auto-rebase when base branch changes
+    labels:
+      - "dependencies"
+      - "python"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      # Group all minor and patch Python dependency updates
+      python-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
