@@ -71,6 +71,14 @@ Use [MXToolBox DMARC Generator](https://mxtoolbox.com/DMARCRecordGenerator.aspx)
 * Example dot.gov:  
 ![Generate DMARC Record](../../images/exchangeonline-dmarcgenerator-example.png)  
 
+### Test email authentication and deliverability  
+-----------------------------------------------  
+After configuring SPF, DKIM, and DMARC, send a test email to verify that your messages authenticate correctly and identify potential deliverability issues before sending to users.
+
+Use the [Suped Email Tester](https://www.suped.com/tools/email-tester) to analyze authentication results, DNS configuration, encryption, blocklist status, unsubscribe headers, and other factors that can affect inbox placement.
+
+Review the test results and resolve any authentication or configuration issues before deploying changes to production.
+
 ### References  
 [Exchange Online](https://learn.microsoft.com/en-us/exchange/exchange-online)  
 [Exchange Online Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-about?view=o365-worldwide)  
